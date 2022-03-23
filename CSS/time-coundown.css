@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.count-down{
+    background-image: url(../img/exam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#time_counter_body{
+    display: flex;
+}
+
+#time_counter_body .time{
+    display: inline;
+    width: 35%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 20px;
+}
+
+#time_counter_body .time h2{
+    font-size: 75px;
+}
+
+#time_counter_body .time span{
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 500px) {
+    #time_counter_body{
+        flex-wrap: wrap;
+    }
+
+    #time_counter_body .time{
+        margin: 15px auto;
+    }
+}

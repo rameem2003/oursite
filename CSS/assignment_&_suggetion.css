@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.head{
+    font-weight: 800;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+/* Header */
+header{
+    background-color: rgb(0, 89, 255);
+}
+
+header img{
+    width: 20%;
+    height: auto;
+}
+
+header .navbar-toggler span{
+    font-size: 20px;
+}
+header span{
+    font-size: 35px;
+    color: white;
+    line-height: 78px;
+}
+
+header ul li{
+    padding: 0 20px;
+}
+header ul li a{
+    font-size: 16px;
+    padding: 0 20px;
+    font-weight: 600;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+/* Header End*/
+
+
+
+/* assignment & suggestion part */
+.assignment, .suggetion{
+    margin: 120px 0;
+}
+
+.suggetion dl dd{
+    margin-left: 20px;
+}
+/* assignment part end */
+
+
+
+
+/* footer */
+footer ul{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+footer ul li a{
+    color: white;
+}
+/* footer end */
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 500px) {
+    
+    header img{
+        display: none;
+    }
+
+    header span{
+        display: block;
+    }
+    .head{
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'Noto Sans Bengali', sans-serif;
+    }
+
+    .assignment a{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    
+    
+
+    footer iframe{
+        width: 320px;
+        height: 150px;
+    }
+    
+}

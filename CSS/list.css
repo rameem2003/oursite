@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.head{
+    font-weight: 800;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+
+/* error code */
+header, .student-list, footer{
+    
+}
+.error{
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.error h1{
+    text-align: center;
+}
+/* error code end */
+
+
+/* blank person */
+.blank_person{
+    opacity: 0;
+}
+/* blank person end*/
+
+
+/* Header */
+header{
+    background-color: rgb(0, 89, 255);
+}
+
+header img{
+    width: 20%;
+}
+
+header .navbar-toggler span{
+    font-size: 20px;
+}
+
+header span{
+    font-size: 35px;
+    color: white;
+    line-height: 78px;
+}
+
+header ul li{
+    padding: 0 20px;
+}
+header ul li a{
+    font-size: 16px;
+    padding: 0 20px;
+    font-weight: 600;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+/* Header End*/
+
+
+/* Student list */
+.student-list{
+    margin-top: 108px;
+}
+
+.list-panel .profile{
+    width: 350px;
+    border-radius: 8px;
+    background: linear-gradient(120deg, rgba(12,182,199,1) 0%, rgba(9,121,63,1) 0%, rgba(7,140,103,1) 0%, rgba(57,78,180,1) 100%);
+    margin: 20px auto;
+    color: white;
+    transition: 0.6s;
+}
+.list-panel .profile .pro-img img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.list-panel .profile .pro-des h2{
+    margin-top: 12px;
+    font-size: 37px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 600;
+}
+.list-panel .profile .pro-des p{
+    font-size: 22px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 600;
+}
+
+.profile:hover{
+    background: linear-gradient(120deg, rgba(12,182,199,1) 0%, rgba(9,121,63,1) 0%, rgba(57,78,180,1) 0%, rgba(7,140,103,1) 100%);
+}
+/* Student list End */
+
+
+/* footer */
+footer ul{
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+footer ul li a{
+    color: white;
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 500px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    header img{
+        display: none;
+    }
+
+    header span{
+        display: block;
+    }
+
+
+    footer iframe{
+        width: 320px;
+        height: 150px;
+    }
+
+
+    /* error code */
+    .error h1{
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    /* error code end */
+    
+}
