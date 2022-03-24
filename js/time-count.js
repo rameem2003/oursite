@@ -12,6 +12,9 @@ function timeCounter(){
     var minute = Math.floor((totalTime / 60) % 60)
     var second = Math.floor(totalTime % 60);
 
+    var banner = document.getElementById("banner");
+    var count_down = document.getElementById("count_down");
+
 
     if(day < 10){
         day = "0" + day;
@@ -24,6 +27,12 @@ function timeCounter(){
     }
     if(second < 10){
         second = "0" + second;
+    }
+
+
+    if(day == 0 && hour == 0 && minute == 0 && second == 0){
+        banner.style.display = "block";
+        count_down.style.display = "none";
     }
 
 
