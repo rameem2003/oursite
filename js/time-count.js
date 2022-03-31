@@ -1,10 +1,10 @@
 var exam = "03 April 2022";
 
 function timeCounter(){
-    examdate = new Date(exam);
-    today = new Date();
+    var ramadan = new Date("03 April 2022").getTime();
+    var today = new Date().getTime();
 
-    totalTime = (examdate - today)/1000;
+    totalTime = (ramadan - today)/1000;
 
     // variable for store day, hour, minite, second
     var day = Math.floor((totalTime / 3600) / 24);
@@ -14,25 +14,14 @@ function timeCounter(){
 
     var banner = document.getElementById("banner");
     var count_down = document.getElementById("count_down");
-
-
-    if(day < 10){
-        day = "0" + day;
-    }
-    if(hour < 10){
-        hour = "0" + hour;
-    }
-    if(minute < 10){
-        minute = "0" + minute;
-    }
-    if(second < 10){
-        second = "0" + second;
-    }
+    var count_down_title = document.getElementById("count_down_title");
+    var time_counter_body = document.getElementById("time_counter_body");
 
 
     if(day < 0 && hour < 0 && minute < 0 && second < 0){
-        banner.style.display = "block";
-        count_down.style.display = "none";
+        count_down_title.innerHTML = "সবাইকে মাহে রমজানের শুভেচ্ছা";
+        count_down_title.style.fontSize = "60px";
+        time_counter_body.style.display = "none";
     }
 
     
