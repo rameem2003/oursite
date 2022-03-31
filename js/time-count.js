@@ -1,4 +1,4 @@
-var exam = "30 March 2022";
+var exam = "03 April 2022";
 
 function timeCounter(){
     examdate = new Date(exam);
@@ -30,10 +30,12 @@ function timeCounter(){
     }
 
 
-    if(day == 0 && hour == 0 && minute == 0 && second == 0){
+    if(day < 0 && hour < 0 && minute < 0 && second < 0){
         banner.style.display = "block";
         count_down.style.display = "none";
     }
+
+    
 
 
 
@@ -45,6 +47,8 @@ function timeCounter(){
     document.getElementById("second").innerHTML = second;
 
     console.log(day, hour, minute, second);
+
+    
 
 }
 

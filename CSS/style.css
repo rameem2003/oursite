@@ -62,6 +62,7 @@ header ul li a{
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 255px 0;
+    display: none;
 }
 
 .banner h1{
