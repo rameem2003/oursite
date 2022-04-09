@@ -6,6 +6,7 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
@@ -20,7 +21,7 @@ body{
 
 /* error code */
 header, .student-list, footer{
-    
+    /* display: none; */
 }
 .error{
     display: none;
@@ -156,6 +157,10 @@ footer ul li a{
 
     header span{
         display: block;
+    }
+    
+    .list-panel .profile{
+        width: 92%;
     }
 
 
