@@ -33,7 +33,7 @@ const student_data = [
 
     {
         // for osama
-        img : "../img/gallery/undraw_male_avatar_323b.svg",
+        img : "../img/gallery/osama.jpg",
         name : "ওয়াসিম আকরাম ওসামা",
         roll : "451620",
         profile : "#"
@@ -80,6 +80,14 @@ const student_data = [
     },
 
     {
+        // for sourov
+        img : "../img/gallery/sourov.jpg",
+        name : "মোহাম্মদ সাজ্জাদ হোসেন সৌরভ",
+        roll : "451630",
+        profile : "#"
+    },
+
+    {
         // for senvia
         img : "../img/gallery/senviya.jpg",
         name : "সেংভিয়া চিরান",
@@ -122,8 +130,16 @@ const student_data = [
     {
         // for rakib hk
         img : "../img/gallery/rakib_hossain.jpg",
-        name : "মোঃ রাকিব হোসেন",
+        name : "মোহাম্মদ রাকিব হোসেন",
         roll : "451636",
+        profile : "#"
+    },
+
+    {
+        // for sagir
+        img : "../img/gallery/sagir.jpg",
+        name : "মোহাম্মদ সাগির আহমেদ",
+        roll : "451637",
         profile : "#"
     },
 
