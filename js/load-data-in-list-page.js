@@ -84,7 +84,8 @@ const student_data = [
         img : "../img/gallery/sourov.jpg",
         name : "মোহাম্মদ সাজ্জাদ হোসেন সৌরভ",
         roll : "451630",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -132,7 +133,8 @@ const student_data = [
         img : "../img/gallery/rakib_hossain.jpg",
         name : "মোহাম্মদ রাকিব হোসেন",
         roll : "451636",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -140,15 +142,17 @@ const student_data = [
         img : "../img/gallery/sagir.jpg",
         name : "মোহাম্মদ সাগির আহমেদ",
         roll : "451637",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
         // for abdullah
         img : "../img/gallery/abu_salem_abdullah.jpg",
-        name : "মোহাম্মদ আবু সালেম আবদুল্লা",
+        name : "মোহাম্মদ আবু সালেম আবদুল্লাহ",
         roll : "451639",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -196,7 +200,8 @@ const student_data = [
         img : "../img/gallery/sayem.jpg",
         name : "আবদুল্লাহ আল সায়েম",
         roll : "451649",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -228,7 +233,8 @@ const student_data = [
         img : "../img/gallery/abdullah_mamun.jpg",
         name : "আবদুল্লাহ আল মামুন",
         roll : "451659",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -236,7 +242,8 @@ const student_data = [
         img : "../img/gallery/undraw_male_avatar_323b.svg",
         name : "নাফিজ মাহমুদ",
         roll : "451660",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -244,7 +251,8 @@ const student_data = [
         img : "../img/gallery/mohiuddin.jpg",
         name : "মোহাম্মদ মহিউদ্দিন",
         roll : "451661",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -260,7 +268,8 @@ const student_data = [
         img : "../img/gallery/sabina.jpg",
         name : "সাবিনা আক্তার",
         roll : "451665",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -268,7 +277,8 @@ const student_data = [
         img : "../img/gallery/riki.jpg",
         name : "রিকি ডেভিড গোমেজ",
         roll : "451669",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -300,7 +310,8 @@ const student_data = [
         img : "../img/gallery/junaed.jpg",
         name : "নাজমুস সাকিব জুনায়েদ",
         roll : "451673",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -316,7 +327,8 @@ const student_data = [
         img : "../img/gallery/undraw_female_avatar_w3jk.svg",
         name : "জান্নাতুল ফেরদৌস",
         roll : "451676",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -356,7 +368,8 @@ const student_data = [
         img : "../img/gallery/undraw_male_avatar_323b.svg",
         name : "মোহাম্মদ মাসুদ খান",
         roll : "451684",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -388,7 +401,8 @@ const student_data = [
         img : "../img/gallery/sakin.jpg",
         name : "শাহরিয়ার আহমেদ সাকিন",
         roll : "451688",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -420,7 +434,8 @@ const student_data = [
         img : "../img/gallery/rio.jpg",
         name : "মোহাম্মদ রাফাত হাসান",
         roll : "451696",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -452,7 +467,8 @@ const student_data = [
         img : "../img/gallery/undraw_male_avatar_323b.svg",
         name : "মোহাম্মদ সোবাহান মিয়া",
         roll : "451701",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -468,7 +484,8 @@ const student_data = [
         img : "../img/gallery/undraw_female_avatar_w3jk.svg",
         name : "ফারিয়া ফেরদৌস জ্যোতি",
         roll : "451704",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -516,7 +533,8 @@ const student_data = [
         img : "../img/gallery/pollab.jpg",
         name : "মোহাম্মদ রাকিব হোসেন পল্লব",
         roll : "451722",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
@@ -621,7 +639,7 @@ const loadData = () => {
                 <div class="pro-des">
                     <h2 class="text-center">${card.name}</h2>
                     <p class="text-center">রোলঃ ${card.roll}</p>
-                    <a class="btn btn-warning text-center d-block" href="${card.profile}">প্রোফাইল পড়ুন</a>
+                    <a class="btn btn-warning text-center d-block ${card.disabled}" href="${card.profile}">প্রোফাইল পড়ুন</a>
                 </div>
             </div>
         `;
