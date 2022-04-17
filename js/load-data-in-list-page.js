@@ -34,9 +34,9 @@ const student_data = [
     {
         // for osama
         img : "../img/gallery/osama.jpg",
-        name : "ওয়াসিম আকরাম ওসামা",
+        name : "ওয়াসিম আকরাম",
         roll : "451620",
-        profile : "#"
+        profile : "../profiles/wasim-akram-451620.html"
     },
 
     {
@@ -354,7 +354,7 @@ const student_data = [
     {
         // for masud
         img : "../img/gallery/undraw_male_avatar_323b.svg",
-        name : "মোহাম্মদ মাসুদ আলি",
+        name : "মোহাম্মদ মাসুদ খান",
         roll : "451684",
         profile : "#"
     },
