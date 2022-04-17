@@ -606,7 +606,8 @@ const student_data = [
         img : "../img/gallery/josim_uddin.jpg",
         name : "মোহাম্মদ জসীম উদ্দিন",
         roll : "185533",
-        profile : "#"
+        profile : "#",
+        disabled : "disabled"
     },
 
     {
