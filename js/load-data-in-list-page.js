@@ -277,8 +277,7 @@ const student_data = [
         img : "../img/gallery/riki.jpg",
         name : "রিকি ডেভিড গোমেজ",
         roll : "451669",
-        profile : "#",
-        disabled : "disabled"
+        profile : "../profiles/ricky-gomes-451669.html"
     },
 
     {
