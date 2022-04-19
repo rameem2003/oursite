@@ -433,8 +433,7 @@ const student_data = [
         img : "../img/gallery/rio.jpg",
         name : "মোহাম্মদ রাফাত হাসান",
         roll : "451696",
-        profile : "#",
-        disabled : "disabled"
+        profile : "../profiles/mohammad-rafat-hasan-rio-451696.html",
     },
 
     {
