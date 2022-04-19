@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Other's Notice</title>
+    <title>4th Semester Practical Exam Rutine</title>
     <link rel="shortcut icon" href="../img/istt1.png" type="image/x-icon">
 
     <!-- Font Awesome CDN -->
@@ -20,7 +20,105 @@
 
 
     <!-- local css -->
-    <link rel="stylesheet" href="../CSS/others.css">
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Noto Sans Bengali', sans-serif;
+    }
+    html{
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
+    .head{
+        font-weight: 800;
+        font-family: 'Noto Sans Bengali', sans-serif;
+    }
+    /* Header */
+    header{
+        background-color: rgb(0, 89, 255);
+    }
+
+    header img{
+        width: 20%;
+        height: auto;
+    }
+
+    header span{
+        font-size: 35px;
+        color: white;
+        line-height: 78px;
+    }
+
+    header .navbar-toggler span{
+    font-size: 20px;
+    }
+
+    header ul li{
+        padding: 0 20px;
+    }
+    header ul li a{
+        font-size: 16px;
+        padding: 0 20px;
+        font-weight: 600;
+        font-family: 'Noto Sans Bengali', sans-serif;
+    }
+    /* Header End*/
+
+    /* table */
+    tr{
+        height: 120px;
+    }
+    /* table end */
+
+
+    /* teacher's */
+    .teachers .names h5{
+        font-size: 15px;
+    }
+    /* teacher's end */
+
+    /* footer */
+    footer ul{
+        list-style-type: none;
+    }
+    footer ul a{
+        color: white;
+    }
+    /* footer end */
+
+    /* responsive */
+    @media screen and (max-width: 500px) {
+        .head{
+            font-size: 30px;
+        }
+        header img{
+            display: none;
+        }
+
+        header span{
+            display: block;
+        }
+
+        /* table */
+        table th{
+            font-size: 18px;
+        }
+        table td{
+            font-size: 15px;
+            font-weight: 800;
+        }
+        /* table end */
+
+
+        footer iframe{
+            width: 320px;
+            height: 150px;
+        }
+    }
+    </style>
 </head>
 <body>
     <!-- Header start -->
@@ -54,132 +152,91 @@
     </header>
     <!-- Header End -->
 
-    <!-- notice -->
-    <div class="notice pb-3">
+    
+    
+
+    <!-- rutine table -->
+    <div class="col-md-12" style="margin-top: 125px;">
+        <h1 class="head text-center">৪র্থ সেমিস্টার ব্যবহারিক পরীক্ষার রুটিন (২০২১)</h1>
+    </div>
+
+
+    <table style="width: 85%; margin: 50px auto; font-size: 25px; text-align: center;" border="2px">
+        <tr style="text-align: center; background-color: #34b934; color: white;">
+            <th>বিষয়</th>
+            <th>বিষয় কোড</th>
+            <th>তারিখ</th>
+            <th>সময়</th>
+            <th>রুম নম্বর</th>
+        </tr>
+        <tr>
+            <td>অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং</td>
+            <td>66641</td>
+            <td>২৩ এপ্রিল ২০২২</td>
+            <td>দুপুর ১.৩০ মিনিট</td>
+            <td>৩০৪, ৩০৫</td>
+        </tr>
+
+        <tr>
+            <td>ডাটা স্ট্রাকচার অ্যান্ড অ্যালগোরিদম</td>
+            <td>66642</td>
+            <td>২৪ এপ্রিল ২০২২</td>
+            <td>দুপুর ১.৩০ মিনিট</td>
+            <td>৩০৪, ৩০৫</td>
+        </tr>
+
+        <tr>
+            <td>ওয়েব ডেভেলপমেন্ট</td>
+            <td>66643</td>
+            <td>২৫ এপ্রিল ২০২২</td>
+            <td>দুপুর ১.৩০ মিনিট</td>
+            <td>৩০৯</td>
+        </tr>
+
+        <tr>
+            <td>ডাটা কমিউনিকেশন সিস্টেম</td>
+            <td>66644</td>
+            <td rowspan="3">২৬ এপ্রিল ২০২২</td>
+            <td>সকাল ০৯ টা</td>
+            <td>৩০৩/৩০৫</td>
+        </tr>
+
+        <tr>
+            <td>কম্পিউটার পেরিফেরালস</td>
+            <td>66645</td>
+            <td>সকাল ১১ টা</td>
+            <td>৩০৩/৩০৫</td>
+        </tr>
+
+        <tr>
+            <td>প্রিন্সিপল অব ডিজিটাল ইলেক্ট্রনিকস</td>
+            <td>66842</td>
+            <td>দুপুর ১.৩০ মিনিট</td>
+            <td>৩০৯</td>
+        </tr>
+
+    </table>
+    <!-- rutine table end -->
+
+
+    <!-- teacher's name part -->
+    <div class="teachers">
         <div class="container">
-            <!-- headlines -->
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="head text-center">নোটিস বোর্ড</h1>
-                </div>
+          <div class="col-md-12 alert alert-info" role="alert">
+            <h1 class="head text-center">ব্যবহারিক পরীক্ষার দিন ISTT থেকে যেসব টিচার উপস্থিত থাকবেন</h1>
+  
+            <div class="names">
+              <h5>OOP >>>> (MD Mukter Hossain -- Lecturer)</h5>
+              <h5>DSA >>>> (MD Mukter Hossain -- Lecturer)</h5>
+              <h5>Web Development >>>> (MD Mukter Hossain -- Lecturer)</h5>
+              <h5>DCS >>>>  (MD Mukter Hossain -- Lecturer)</h5>
+              <h5>Computer Peripherals >>>> (Uzzal Chandra Das -- Lecturer)</h5>
+              <h5>PDE >>>> (MD Mukter Hossain -- Lecturer)</h5>
             </div>
-
-
-            <!-- notice section -->
-            <div class="row mb-2">
-                <div class="col-md-4 col-sm-12">
-                    <div class="row p-3 box">
-                        <div class="col-md-4 img">
-                            <img class="m-3" src="../img/istt1.png" alt="istt logo">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <h2 class="text-center text-md-left">৪র্থ সেমিস্টার</h2>
-                            <p class="text-center text-md-left">ব্যবহারিক পরীক্ষার রুটিন</p>
-                            <p class="text-center text-md-left">সর্বশেষ আপডেট ১৯ এপ্রিল ২০২২</p>
-
-                            <a class="btn btn-primary d-block click" href="./4th-semester-practical-exam-routine.html">দেখুন</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12">
-                    <div class="row p-3 box">
-                        <div class="col-md-4 img">
-                            <img class="m-3" src="../img/istt1.png" alt="istt logo">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <h2 class="text-center text-md-left">৫ম সেমিস্টার</h2>
-                            <p class="text-center text-md-left">বইয়ের তালিকা</p>
-                            <p class="text-center text-md-left">সর্বশেষ আপডেট ১৩ এপ্রিল ২০২২</p>
-
-                            <a class="btn btn-danger d-block click" href="../docs/Book list 5th semester-1.png"><i class="fas fa-download"></i> ডাউনলোড করুন</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12">
-                    <div class="row p-3 box">
-                        <div class="col-md-4 img">
-                            <img class="m-3" src="../img/istt1.png" alt="istt logo">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <h2 class="text-center text-md-left">৪র্থ সেমিস্টার</h2>
-                            <p class="text-center text-md-left">ফাইনাল পরীক্ষার রুটিন</p>
-                            <p class="text-center text-md-left">সর্বশেষ আপডেট ০৭ মার্চ ২০২২</p>
-
-                            <a class="btn btn-primary d-block click" href="../others/4th-semester-final-exam-routine.html">দেখুন</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4 col-sm-12">
-                    <div class="row p-3 box">
-                        <div class="col-md-4 img">
-                            <img class="m-3" src="../img/istt1.png" alt="istt logo">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <h2 class="text-center text-md-left">৪র্থ সেমিস্টার</h2>
-                            <p class="text-center text-md-left">সাজেশন এর আপডেট</p>
-                            <p class="text-center text-md-left">সর্বশেষ আপডেট ২৮ মার্চ ২০২২</p>
-
-                            <a class="btn btn-primary d-block click" href="../others/suggestion-update.html">দেখুন</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12">
-                    <div class="row p-3 box">
-                        <div class="col-md-4 img">
-                            <img class="m-3" src="../img/istt1.png" alt="istt logo">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <h2 class="text-center text-md-left">৪র্থ সেমিস্টার</h2>
-                            <p class="text-center text-md-left">Assignment এর আপডেট</p>
-                            <p class="text-center text-md-left">সর্বশেষ আপডেট ১৫ মার্চ ২০২২</p>
-
-                            <a class="btn btn-primary d-block click" href="../others/assignment-update.html">দেখুন</a>
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="col-md-4 col-sm-12">
-                    <div class="row p-3 box">
-                        <div class="col-md-4 img">
-                            <img class="m-3" src="../img/istt1.png" alt="istt logo">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <h2 class="text-center text-md-left">Cover Page</h2>
-                            <p class="text-center text-md-left">For All Assignment</p>
-                            <p class="text-center text-md-left">Computer Technology batch 2019-2020</p>
-
-                            <a class="btn btn-danger d-block click" href="../docs/Cover page.pdf" target="_blank"><i class="fas fa-download"></i> ডাউনলোড করুন</a>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-
-            
+          </div>
         </div>
     </div>
-    <!-- notice end -->
-    
-
-    
-
-
-
-
-
-
-
-
-
-
+    <!-- teacher's name part end -->
 
 
 
