@@ -602,10 +602,9 @@ const student_data = [
     {
         // for josim
         img : "../img/gallery/josim_uddin.jpg",
-        name : "মোহাম্মদ জসীম উদ্দিন",
+        name : "মোহাম্মদ জাসিম উদ্দিন",
         roll : "185533",
-        profile : "#",
-        disabled : "disabled"
+        profile : "../profiles/mohamad-jasim-uddin-185533.html",
     },
 
     {
