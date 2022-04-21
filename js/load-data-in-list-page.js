@@ -540,9 +540,8 @@ const student_data = [
         img : "../img/gallery/undraw_female_avatar_w3jk.svg",
         name : "ফারিয়া ফেরদৌস জ্যোতি",
         roll : "451704",
-        blood : "#",
-        profile : "#",
-        disabled : "disabled"
+        blood : "B+",
+        profile : "../profiles/faria-ferdus-joti-451704.html"
     },
 
     {
