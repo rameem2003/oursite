@@ -159,9 +159,8 @@ const student_data = [
         img : "../img/gallery/sagir.jpg",
         name : "মোহাম্মদ সাগির আহমেদ",
         roll : "451637",
-        blood : "#",
-        profile : "#",
-        disabled : "disabled"
+        blood : "A+",
+        profile : "../profiles/mohammad-shagir-ahmed-451637.html"
     },
 
     {
