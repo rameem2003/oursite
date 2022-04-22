@@ -7,7 +7,7 @@ ___
 
 <br>
 
-### My website: rameem2003.github.io/Mysite
+### My website: rameem2003.github.io/rameem.me
 
 <br>
 
