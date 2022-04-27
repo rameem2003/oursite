@@ -703,7 +703,7 @@ const loadData = () => {
         cardElement.classList.add("d-block");
         cardElement.classList.add("d-lg-flex");
         cardElement.innerHTML = `
-            <div class="profile p-3">
+            <div class="profile p-3" data-title="${card.roll}">
                 <div class="pro-img">
                     <img class="img-fluid" src="${card.img}" alt="">
                 </div>
@@ -720,3 +720,29 @@ const loadData = () => {
 }
 
 loadData()
+
+
+
+// search profile by roll
+function search(){
+    var inputSearch = document.getElementById("search");
+
+    var profile = document.querySelectorAll(".profile");
+
+    for(i = 0; i<profile.length; i++){
+        profile[i].style.display = "none";
+    }
+
+
+    for(j = 0; j<profile.length; j++){
+        var studentRoll = profile[j].getAttribute("data-title");
+
+        if(inputSearch.value == studentRoll){
+            profile[j].style.display = "block";
+        }
+
+        if(inputSearch.value == ""){
+            profile[j].style.display = "block";
+        }
+    }
+}
