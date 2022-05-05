@@ -7,14 +7,20 @@ ___
 
 <br>
 
-### My website: rameem2003.github.io/rameem.me
+### My website:
+```
+https://rameem2003.github.io/rameem.me
+```
 
 <br>
 
-### To browse my web site copy it 
+### To visit this site: 
 ```
 https://rameem2003.github.io/oursite/
 ```
+
+# Webpage interface
+![view](./img/view.png)
 
 ## Task List
 
