@@ -4,7 +4,7 @@ const student_data = [
         img : "../img/gallery/bipul_hassan_rabbi.jpg",
         name : "মোহাম্মদ রাব্বি",
         roll : "451650",
-        blood : "O+",
+        blood : "O-",
         profile : "../profiles/mohammad-rabbi-451650.html"
     },
 
