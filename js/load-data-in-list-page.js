@@ -149,9 +149,8 @@ const student_data = [
         img : "../img/gallery/rakib_hossain.jpg",
         name : "মোহাম্মদ রাকিব হোসেন",
         roll : "451636",
-        blood : "#",
-        profile : "#",
-        disabled : "disabled"
+        blood : "AB-",
+        profile : "../profiles/mohammad-rakib-hossain-451636.html",
     },
 
     {
@@ -605,6 +604,16 @@ const student_data = [
         roll : "451723",
         blood : "AB+",
         profile : "../profiles/likhon-ahmed-492723.html"
+    },
+
+
+    {
+        // for tanvir ahmed
+        img : "../img/gallery/undraw_male_avatar_323b.svg",
+        name : "মোহাম্মদ তানভীর আহমেদ",
+        roll : "453857",
+        blood : "O-",
+        profile : "../profiles/mohammad-tanvir-ahmed-453857.html"
     },
 
     {
