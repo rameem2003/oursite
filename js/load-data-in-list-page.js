@@ -609,7 +609,7 @@ const student_data = [
 
     {
         // for tanvir ahmed
-        img : "../img/gallery/undraw_male_avatar_323b.svg",
+        img : "../img/gallery/tanvir.jpg",
         name : "মোহাম্মদ তানভীর আহমেদ",
         roll : "453857",
         blood : "O-",
