@@ -1,0 +1,19 @@
+------------------------INSTALACION DE PROTEUS 8--------------------
+=================================================================================================
+1. - Ejecutar el instalador de Proteus 8 e instalar el programa. Cuando te pida una licencia,
+     usar el archivo "LICENCE" e instalarlo. Al  finalizar la instalacion de proteus no lo inicies
+
+2. - Copiar la carpeta "BIN", pegarlo en la siguiente ruta y reempazar:
+
+     "C:\Program Files\Labcenter Electronics\Proteus 8 Professional"
+
+3 - Copiar la carpeta "MODELS" y pegarlo en la siguiente ruta segùn tu windows:
+
+     Windows XP:
+     C:\Documents and Settings\All Users\Datos de programa\Labcenter Electronics\Proteus 8 Professional
+
+     Windows 7/8:
+     C:\ProgramData\Labcenter Electronics\Proteus 8 Professional
+
+*NOTA: Si no se muestra la carpeta, entonces habilita la opcion para ver carpetas ocultas.
+===================================================================================================
