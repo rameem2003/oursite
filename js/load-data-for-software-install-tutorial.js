@@ -8,11 +8,9 @@ const softwareInstall = [
 
         subTitle : "ডাউনলোড ও ইন্সটল",
 
-        postLink : "#",
+        postLink : "./proteous.html",
 
-        disable : "disabled",
-
-        btn : "শীঘ্রই আসছে"
+        btn : "পোস্ট পড়ুন"
     },
 
 
