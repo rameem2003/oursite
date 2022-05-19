@@ -13,15 +13,6 @@ $("#hide_btn").click(function(){
 });
 
 
-// oop C# code
-$("#hide_btn_cs_method_overloading").click(function(){
-    $("#C_S_Code_method_overloading").slideToggle(); // form assignment-update.html
-});
-
-// oop C# code
-$("#hide_btn_cs_inheritance").click(function(){
-    $("#C_S_Code_inheritance").slideToggle(); // form assignment-update.html
-});
 
 
 // web development php code
