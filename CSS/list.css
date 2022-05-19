@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -17,7 +16,7 @@ body{
 
 .head{
     font-weight: 800;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
 }
 
 
@@ -72,7 +71,7 @@ header ul li a{
     font-size: 16px;
     padding: 0 20px;
     font-weight: 600;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
 }
 /* Header End*/
 
@@ -122,12 +121,12 @@ header ul li a{
 .list-panel .profile .pro-des h2{
     margin-top: 12px;
     font-size: 37px;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
     font-weight: 600;
 }
 .list-panel .profile .pro-des p{
     font-size: 22px;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
     font-weight: 600;
 }
 

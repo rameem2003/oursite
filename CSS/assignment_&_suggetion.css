@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -12,7 +11,7 @@ html{
 
 .head{
     font-weight: 800;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
 }
 /* Header */
 header{
@@ -40,7 +39,7 @@ header ul li a{
     font-size: 16px;
     padding: 0 20px;
     font-weight: 600;
-    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
 }
 /* Header End*/
 
@@ -87,7 +86,7 @@ footer ul li a{
     .head{
         font-size: 25px;
         font-weight: 800;
-        font-family: 'Hind Siliguri', sans-serif;
+        font-family: 'Noto Sans Bengali', sans-serif;
     }
 
     .assignment a{
