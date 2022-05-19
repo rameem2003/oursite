@@ -1,5 +1,17 @@
 const noticeBoard = [
     {
+        // 5th semester assignment
+        title : "৫ম সেমিস্টার",
+        subTitle : "Assignment এর আপডেট",
+        update : "সর্বশেষ আপডেট  ১৯ মে ২০২২",
+        link : "../others/assignment-update.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+
+
+    {
         // 4th semester class routine
         title : "৫ম সেমিস্টার",
         subTitle : "ক্লাস রুটিন",
@@ -49,17 +61,6 @@ const noticeBoard = [
         subTitle : "সাজেশন এর আপডেট",
         update : "সর্বশেষ আপডেট ২৮ মার্চ ২০২২",
         link : "../others/suggestion-update.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
-    },
-
-    {
-        // 4th semester assignment
-        title : "৪র্থ সেমিস্টার",
-        subTitle : "Assignment এর আপডেট",
-        update : "সর্বশেষ আপডেট ১৫ মার্চ ২০২২",
-        link : "../others/assignment-update.html",
         btnColor : "btn-primary",
         downloadIcon : "",
         btnText : "দেখুন"

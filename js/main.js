@@ -15,15 +15,4 @@ $("#hide_btn").click(function(){
 
 
 
-// web development php code
-$("#hide_btn_php").click(function(){
-    $("#php_code").slideToggle(); // form assignment-update.html
-});
-
-
-// web development for bootstrap
-$("#hide_btn_bootstrap").click(function(){
-    $("#bootstrap_code").slideToggle(); // form assignment-update.html
-});
-
 
