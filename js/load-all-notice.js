@@ -1,9 +1,21 @@
 const noticeBoard = [
     {
+        // 4th semester suggestion
+        title : "৫ম সেমিস্টার",
+        subTitle : "সাজেশন এর আপডেট",
+        update : "সর্বশেষ আপডেট ০৫ জুন ২০২২",
+        link : "../others/suggestion-update.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+
+
+    {
         // 5th semester assignment
         title : "৫ম সেমিস্টার",
         subTitle : "Assignment এর আপডেট",
-        update : "সর্বশেষ আপডেট  ১৯ই মে ২০২২",
+        update : "সর্বশেষ আপডেট  ০৫ জুন ২০২২",
         link : "../others/assignment-update.html",
         btnColor : "btn-primary",
         downloadIcon : "",
@@ -55,16 +67,6 @@ const noticeBoard = [
         btnText : "দেখুন"
     },
 
-    {
-        // 4th semester suggestion
-        title : "৪র্থ সেমিস্টার",
-        subTitle : "সাজেশন এর আপডেট",
-        update : "সর্বশেষ আপডেট ২৮ মার্চ ২০২২",
-        link : "../others/suggestion-update.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
-    },
 
     {
         // cover page
