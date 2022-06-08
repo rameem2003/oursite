@@ -241,7 +241,7 @@ const student_data = [
         img : "../img/gallery/mahabul_alam.jpg",
         name : "মোহাম্মদ মাহাবুল আলম",
         roll : "451652",
-        blood : "B-",
+        blood : "B+",
         profile : "../profiles/mohammad-mahabul-alam-451652.html"
     },
 
