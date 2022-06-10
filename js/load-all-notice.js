@@ -27,8 +27,8 @@ const noticeBoard = [
         // 4th semester class routine
         title : "৫ম সেমিস্টার",
         subTitle : "ক্লাস রুটিন",
-        update : "সর্বশেষ আপডেট ১০ই মে ২০২২",
-        link: "../docs/5th Semester class routine-1.png",
+        update : "সর্বশেষ আপডেট ৯ই জুন ২০২২",
+        link: "../docs/5th Semester class routine(reviced).pdf",
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
         btnText : "ডাউনলোড করুন"
