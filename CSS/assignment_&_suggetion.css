@@ -50,7 +50,7 @@ header ul li a{
     margin: 120px 0;
 }
 
-.suggetion dl dd{
+.assignment dl dd, .suggetion dl dd{
     margin-left: 20px;
 }
 /* assignment part end */
