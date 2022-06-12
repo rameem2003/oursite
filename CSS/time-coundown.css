@@ -6,14 +6,14 @@
 
 
 .count-down{
-    background-image: url(../img/ramadan.jpg);
+    background-image: url(../img/exam.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
+    /* display: none; */
 }
 
 #time_counter_body{

@@ -1,7 +1,5 @@
-var exam = "03 April 2022";
-
 function timeCounter(){
-    var ramadan = new Date("03 April 2022").getTime();
+    var ramadan = new Date("25 June 2022").getTime();
     var today = new Date().getTime();
 
     totalTime = (ramadan - today)/1000;
@@ -19,7 +17,7 @@ function timeCounter(){
 
 
     if(day < 0 && hour < 0 && minute < 0 && second < 0){
-        count_down_title.innerHTML = "সবাইকে মাহে রমজানের শুভেচ্ছা";
+        count_down_title.innerHTML = "পরীক্ষা শুরু";
         count_down_title.style.fontSize = "60px";
         time_counter_body.style.display = "none";
     }
