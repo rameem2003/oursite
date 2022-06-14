@@ -19,15 +19,14 @@ const softwareInstall = [
 
         tumbnail : "https://static.pepper.ru/threads/raw/default/210415_1/re/1024x1024/qt/60/210415_1.jpg",
 
-        titleName : "Ubuntu 22.04",
+        titleName : "Virtual box + Ubuntu",
 
         subTitle : "ডাউনলোড ও ইন্সটল",
 
-        postLink : "#",
+        postLink : "./ubuntu_install.html",
 
-        disable : "disabled",
 
-        btn : "শীঘ্রই আসছে"
+        btn : "পোস্ট পড়ুন"
     },
 
     {
