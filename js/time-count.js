@@ -1,5 +1,5 @@
 function timeCounter(){
-    var ramadan = new Date("25 June 2022").getTime();
+    var ramadan = new Date("26 June 2022").getTime();
     var today = new Date().getTime();
 
     totalTime = (ramadan - today)/1000;
@@ -33,7 +33,7 @@ function timeCounter(){
     document.getElementById("minute").innerHTML = minute;
     document.getElementById("second").innerHTML = second;
 
-    console.log(day, hour, minute, second);
+    // console.log(day, hour, minute, second);
 
     
 
