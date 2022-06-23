@@ -1,5 +1,17 @@
 const noticeBoard = [
     {
+        // 4th semester final exam routine
+        title : "৫ম সেমিস্টার",
+        subTitle : "মিডটার্ম পরীক্ষার রুটিন",
+        update : "সর্বশেষ আপডেট ২৩ জুন ২০২২",
+        link : "../others/5th-semester-final-exam-routine.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+
+
+    {
         // 4th semester suggestion
         title : "৫ম সেমিস্টার",
         subTitle : "সাজেশন এর আপডেট",
@@ -55,18 +67,6 @@ const noticeBoard = [
         downloadIcon : `<i class="fas fa-download"></i>`,
         btnText : "ডাউনলোড করুন"
     },
-
-    {
-        // 4th semester final exam routine
-        title : "৪র্থ সেমিস্টার",
-        subTitle : "ফাইনাল পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ০৭ মার্চ ২০২২",
-        link : "../others/4th-semester-final-exam-routine.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
-    },
-
 
     {
         // cover page
