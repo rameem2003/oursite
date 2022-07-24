@@ -32,7 +32,7 @@ const softwareInstall = [
     {
         // Git
 
-        tumbnail : "https://panduz.net/wp-content/uploads/2020/12/git.png",
+        tumbnail : "https://avatars.githubusercontent.com/u/18133?s=200&v=4",
 
         titleName : "Git",
 
