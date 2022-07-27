@@ -53,6 +53,19 @@ header ul li a{
 .assignment dl dd, .suggetion dl dd{
     margin-left: 20px;
 }
+
+
+.assignment .video_section #pcb_video{
+    display: none;
+}
+
+.assignment .video_section .unlock_section .keys{
+    outline: none;
+    height: 25px;
+    width: 35%;
+    font-weight: bolder;
+    padding: 20px;
+}
 /* assignment part end */
 
 
@@ -92,6 +105,10 @@ footer ul li a{
     .assignment a{
         display: inline-block;
         margin-bottom: 20px;
+    }
+
+    .assignment .video_section .unlock_section .keys{
+        width: 100%;
     }
 
     
