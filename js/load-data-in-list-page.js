@@ -510,7 +510,7 @@ const student_data = [
         img : "../img/gallery/undraw_male_avatar_323b.svg",
         name : "রেদওয়ান রোকন নউশাদ",
         roll : "451700",
-        blood : "B+",
+        blood : "B-",
         profile : "../profiles/redowan-rukon-nowshad-451700.html"
     },
 
