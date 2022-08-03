@@ -9,9 +9,11 @@ unlock_btn.addEventListener("click", () => {
 
     const error = document.getElementById("error_text");
 
-    password = "valobasha_obiram_legends";
+    const password = "valobasha_obiram_legends";
+    const password_for_all = "istt_cmt_5th_pcb";
 
-    if(input == password){
+
+    if(input == password || input == password_for_all){
         video.style.display = "block";
         video.src = '../videos/PCB/3D_circuit_design.mp4';
         error.innerHTML = "";
