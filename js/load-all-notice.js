@@ -1,10 +1,23 @@
 const noticeBoard = [
     {
-        // 4th semester final exam routine
+        // 5th semester fianl exam routine
+        title : "৫ম সেমিস্টার",
+        subTitle : "ফাইনাল পরীক্ষার রুটিন",
+        update : "সর্বশেষ আপডেট ",
+        link : "#",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন",
+        disable : "disabled",
+    },
+
+
+    {
+        // 5th semester midterm exam routine
         title : "৫ম সেমিস্টার",
         subTitle : "মিডটার্ম পরীক্ষার রুটিন",
         update : "সর্বশেষ আপডেট ২৩ জুন ২০২২",
-        link : "../others/5th-semester-final-exam-routine.html",
+        link : "../others/5th-semester-midterm-exam-routine.html",
         btnColor : "btn-primary",
         downloadIcon : "",
         btnText : "দেখুন"
@@ -100,7 +113,7 @@ const loadNotice = () => {
                     <p class="text-center text-md-left">${notices.subTitle}</p>
                     <p class="text-center text-md-left">${notices.update}</p>
 
-                    <a class="btn ${notices.btnColor} d-block click" href="${notices.link}">${notices.downloadIcon} ${notices.btnText}</a>
+                    <a class="btn ${notices.btnColor} ${notices.disable} d-block click" href="${notices.link}">${notices.downloadIcon} ${notices.btnText}</a>
                 </div>
             </div>
         `;
