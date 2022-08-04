@@ -3,12 +3,12 @@ const noticeBoard = [
         // 5th semester fianl exam routine
         title : "৫ম সেমিস্টার",
         subTitle : "ফাইনাল পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ",
-        link : "#",
+        update : "সর্বশেষ আপডেট ৪ আগস্ট ২০২২",
+        link : "../others/5th-semester-final-exam-routine.html",
         btnColor : "btn-primary",
         downloadIcon : "",
         btnText : "দেখুন",
-        disable : "disabled",
+        disable : "#",
     },
 
 
