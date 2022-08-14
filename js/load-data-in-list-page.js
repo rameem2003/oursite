@@ -601,7 +601,7 @@ const student_data = [
         // for likhon
         img : "../img/gallery/likhon.jpg",
         name : "লিখন আহমেদ",
-        roll : "451723",
+        roll : "492723",
         blood : "AB+",
         profile : "../profiles/likhon-ahmed-492723.html"
     },
