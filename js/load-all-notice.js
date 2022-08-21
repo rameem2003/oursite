@@ -13,22 +13,10 @@ const noticeBoard = [
 
 
     {
-        // 5th semester midterm exam routine
-        title : "৫ম সেমিস্টার",
-        subTitle : "মিডটার্ম পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ২৩ জুন ২০২২",
-        link : "../others/5th-semester-midterm-exam-routine.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
-    },
-
-
-    {
         // 5th semester suggestion
         title : "৫ম সেমিস্টার",
         subTitle : "সাজেশন এর আপডেট",
-        update : "সর্বশেষ আপডেট ১৮ আগস্ট ২০২২",
+        update : "সর্বশেষ আপডেট ২১ আগস্ট ২০২২",
         link : "../others/suggestion-update.html",
         btnColor : "btn-primary",
         downloadIcon : "",
@@ -58,6 +46,20 @@ const noticeBoard = [
         downloadIcon : `<i class="fas fa-download"></i>`,
         btnText : "ডাউনলোড করুন"
     },
+
+
+    {
+        // 5th semester midterm exam routine
+        title : "৫ম সেমিস্টার",
+        subTitle : "মিডটার্ম পরীক্ষার রুটিন",
+        update : "সর্বশেষ আপডেট ২৩ জুন ২০২২",
+        link : "../others/5th-semester-midterm-exam-routine.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+
+
 
     {
         // 5th semester book list
