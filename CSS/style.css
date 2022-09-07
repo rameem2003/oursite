@@ -49,10 +49,32 @@ header ul li a{
 #shortcut{
     z-index: 99;
     position: fixed;
-    bottom: 15px;
+    bottom: 60px;
     right: 15px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+#shortcut.active_shortcut{
+    visibility: initial;
+    transition: 0.5s linear;
+}
+
+#shortcut .shortcut_btn{
+    margin-bottom: 10px;
 }
 /* shortcut button end */
+
+/* bell button */
+#bell{
+    z-index: 99;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+}
+/* bell button end */
 
 
 
