@@ -12,15 +12,19 @@ function home_clock(){
 
     // greeting setup
     if(hour >= 6 && hour < 12){
-        greeting.innerHTML = "শুভ সকাল"
+        greeting.innerHTML = "শুভ সকাল";
     }
 
     if(hour >= 12 && hour <= 17){
-        greeting.innerHTML = "শুভ অপরাহ্ণ"
+        greeting.innerHTML = "শুভ অপরাহ্ণ";
     }
 
-    if(hour >= 18){
-        greeting,innerHTML = "শুভ রাত্রি"
+    if(hour >= 18 && hour <= 19){
+        greeting.innerHTML = "শুভ সন্ধ্যা";
+    }
+
+    if(hour >= 20){
+        greeting.innerHTML = "শুভ রাত্রি";
     }
 
     // AMPM Setup
