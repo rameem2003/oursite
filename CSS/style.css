@@ -210,6 +210,10 @@ footer ul li a{
 
     #shortcut{
         right: 20px;
+        bottom: 60px;
+    }
+
+    #bell{
         bottom: 20px;
     }
 
