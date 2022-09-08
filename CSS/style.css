@@ -77,6 +77,26 @@ header ul li a{
 /* bell button end */
 
 
+/* note */
+.note{
+    position: relative;
+}
+.note .time{
+    position: absolute;
+    top: 107px;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    height: 24px;
+    font-weight: bolder;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+/* note end */
+
+
 
 
 /* Banner start */
@@ -84,9 +104,10 @@ header ul li a{
     margin-top: -3px;
     background-image: url("../img/istt_banner_dark.png");
     background-size: cover;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 255px 0;
+    padding: 165px 0;
     /* display: none; */
 }
 
@@ -215,6 +236,10 @@ footer ul li a{
 
     #bell{
         bottom: 20px;
+    }
+
+    .note .time{
+        position: static;
     }
 
     .banner h1{
