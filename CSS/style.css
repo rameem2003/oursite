@@ -108,6 +108,7 @@ header ul li a{
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 165px 0;
+    background-position: top center;
     /* display: none; */
 }
 
