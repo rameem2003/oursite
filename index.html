@@ -128,8 +128,8 @@
     <div class="banner" id="banner">
         <div class="container">
             <h2 class="text-center text-danger" id="greeting"></h2>
-            <h1 class="text-center text-danger">আমাদের ব্যাচে আপনাকে স্বাগতম</h1>
-            <h2 class="text-center text-danger">কম্পিউটার ব্যাচ ২০১৯-২০</h2>
+            <h1 class="text-center text-danger animated_text"></h1>
+            <!-- <h2 class="text-center text-danger">কম্পিউটার ব্যাচ ২০১৯-২০</h2> -->
         </div>
     </div>
     <!-- Banner end -->
@@ -535,12 +535,21 @@
 
 
     <!-- jQuery CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- local Javascript -->
     <script src="./js/main.js"></script>
     <script src="./js/time-count.js"></script>
     <script src="./js/bell_button.js"></script>
     <script src="./js/home-clock.js"></script>
+    <script>
+        var typed = new Typed(".animated_text", {
+            strings : ["আমাদের ব্যাচে আপনাকে স্বাগতম", "কম্পিউটার ব্যাচ ২০১৯-২০"],
+            typeSpeed : 80,
+            backSpeed : 70,
+            loop : false,
+        });
+    </script>
 
 </body>
 </html>
