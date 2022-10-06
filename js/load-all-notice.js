@@ -1,17 +1,15 @@
 const noticeBoard = [
     {
-        // 5th semester fianl exam routine
-        title : "৫ম সেমিস্টার",
-        subTitle : "ফাইনাল পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ৪ আগস্ট ২০২২",
-        link : "../others/5th-semester-final-exam-routine.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন",
-        disable : "#",
+        // 6th semester book list
+        title : "৬ষ্ঠ সেমিস্টার",
+        subTitle : "বইয়ের তালিকা",
+        update : "সর্বশেষ আপডেট ০৬ অক্টোবর ২০২২",
+        link : "../docs/Book list 6th semester.pdf",
+        btnColor : "btn-danger",
+        downloadIcon : `<i class="fas fa-download"></i>`,
+        btnText : "ডাউনলোড করুন"
     },
-
-
+    
     {
         // 5th semester suggestion
         title : "৫ম সেমিস্টার",
@@ -42,42 +40,6 @@ const noticeBoard = [
         subTitle : "ক্লাস রুটিন",
         update : "সর্বশেষ আপডেট ৯ই জুন ২০২২",
         link: "../docs/5th Semester class routine(reviced).pdf",
-        btnColor : "btn-danger",
-        downloadIcon : `<i class="fas fa-download"></i>`,
-        btnText : "ডাউনলোড করুন"
-    },
-
-
-    {
-        // 5th semester midterm exam routine
-        title : "৫ম সেমিস্টার",
-        subTitle : "মিডটার্ম পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ২৩ জুন ২০২২",
-        link : "../others/5th-semester-midterm-exam-routine.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
-    },
-
-
-
-    {
-        // 5th semester book list
-        title : "৫ম সেমিস্টার",
-        subTitle : "বইয়ের তালিকা",
-        update : "সর্বশেষ আপডেট ১৩ এপ্রিল ২০২২",
-        link : "../docs/5th-semester-book-list.png",
-        btnColor : "btn-danger",
-        downloadIcon : `<i class="fas fa-download"></i>`,
-        btnText : "ডাউনলোড করুন"
-    },
-
-    {
-        // 4th semester book list
-        title : "৪র্থ সেমিস্টার",
-        subTitle : "বইয়ের তালিকা",
-        update : "সর্বশেষ আপডেট ১১ই মে ২০২২",
-        link : "../docs/4th-semester-book-list.jpg",
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
         btnText : "ডাউনলোড করুন"

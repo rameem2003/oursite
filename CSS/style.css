@@ -18,6 +18,7 @@ html{
 /* Header */
 header{
     background-color: rgb(0, 89, 255);
+    /* background-image: linear-gradient(120deg, red, green); */
 }
 
 header img{
@@ -163,8 +164,10 @@ header ul li a{
 .introduce .profile{
     width: 350px;
     border-radius: 8px;
-    background-color: #ddd;
+    /* background-color: #ddd; */
+    background: linear-gradient(120deg, rgba(12,182,199,1) 0%, rgba(9,121,63,1) 0%, rgba(7,140,103,1) 0%, rgba(57,78,180,1) 100%);
     margin: 20px auto;
+    color: white;
 }
 .introduce .profile .pro-img img{
     width: 60%;
