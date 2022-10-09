@@ -712,7 +712,7 @@ const loadData = () => {
         cardElement.classList.add("d-block");
         cardElement.classList.add("d-lg-flex");
         cardElement.innerHTML = `
-            <div class="profile p-3" data-title="${card.roll}">
+            <div class="profile p-3" data-title="${card.roll}" data-blood="${card.blood}">
                 <div class="pro-img">
                     <img class="img-fluid" src="${card.img}" alt="">
                 </div>
@@ -752,6 +752,32 @@ function search(){
 
         if(inputSearch.value == ""){
             profile[j].style.display = "block";
+        }
+    }
+}
+
+
+// search profile by blood
+
+
+function search_by_blood(){
+    var bloodSearch = document.getElementById("search_blood").value;
+
+    var profile = document.querySelectorAll(".profile");
+
+    for(a = 0; a < profile.length; a++){
+        profile[a].style.display = "none"
+    }
+
+    for(b = 0; b<profile.length; b++){
+        var stydentBlood = profile[b].getAttribute("data-blood");
+
+        if(bloodSearch.toUpperCase() == stydentBlood){
+            profile[b].style.display = "block";
+        }
+
+        if(bloodSearch == ""){
+            profile[b].style.display = "block";
         }
     }
 }

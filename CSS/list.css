@@ -25,11 +25,12 @@ header, .student-list, footer{
     /* display: none; */
 }
 .error{
-    display: none;
+    display: flex;
     flex-direction: column;
     height: 100vh;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .error h1{
@@ -95,6 +96,7 @@ header ul li a{
     border: 1px solid blue;
     border-radius: 8px;
     outline: none;
+    /* text-transform: capitalize; */
 }
 
 .student-list .search i{
