@@ -521,9 +521,7 @@
     <!-- Footer End -->
 
 
-
-
-
+    <audio id="au" src="./sound/ms_windows_sound.mp3" autoplay></audio>
 
 
 
@@ -549,6 +547,10 @@
             backSpeed : 70,
             loop : false,
         });
+
+        window.onload = function(){
+            document.getElementById("au").play();
+        }
     </script>
 
 </body>
