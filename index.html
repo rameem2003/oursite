@@ -25,6 +25,12 @@
     <link rel="stylesheet" href="./CSS/time-coundown.css">
 </head>
 <body>
+
+    <div class="loading_animation">
+        <div></div>
+    </div>
+
+    <div class="ui">
     <!-- Header start -->
     <header class="fixed-top">
         <div class="container">
@@ -519,6 +525,7 @@
         </div>
     </footer>
     <!-- Footer End -->
+    </div>
 
 
     <audio id="au" src="./sound/ms_windows_sound.mp3" autoplay></audio>
@@ -551,6 +558,12 @@
         window.onload = function(){
             document.getElementById("au").play();
         }
+
+
+        $(window).on('load', function(){
+            $('.loading_animation').fadeOut(2000);
+            $('.ui').fadeIn(1000);
+        })
     </script>
 
 </body>
