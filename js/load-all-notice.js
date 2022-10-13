@@ -3,7 +3,7 @@ const noticeBoard = [
         // 6th semester class routine
         title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "ক্লাস রুটিন",
-        update : "সর্বশেষ আপডেট ১০ অক্টোবর ২০২২",
+        update : "সর্বশেষ আপডেট ১৩ অক্টোবর ২০২২",
         link : "../docs/6th Semester class routine.pdf",
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
