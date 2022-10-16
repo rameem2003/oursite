@@ -4,10 +4,13 @@ function home_clock(){
     let hour = date.getHours();
     let minute = date.getMinutes();
     let second = date.getSeconds();
+    let daysNumber = date.getDay();
 
     var formate = document.getElementById("formate");
-
     var greeting = document.getElementById("greeting");
+    var days = document.getElementById("days");
+
+    const arrayOfWeek = ["রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"];
 
 
     // greeting setup
@@ -54,7 +57,9 @@ function home_clock(){
         second = '0' + second;
     }
 
-    document.getElementById("clock").innerHTML = `এখন সময় ${hour} : ${minute} : ${second} &nbsp`;
+    document.getElementById("clock").innerHTML = `এখন সময় ${hour} : ${minute} : ${second}`;
+
+    days.innerHTML = ` || ${arrayOfWeek[daysNumber]}`
 
     setInterval(home_clock, 1000);
 }
