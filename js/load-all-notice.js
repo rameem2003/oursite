@@ -23,7 +23,7 @@ const noticeBoard = [
     
     {
         // 5th semester suggestion
-        title : "৫ম সেমিস্টার",
+        title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "সাজেশন এর আপডেট",
         update : "সর্বশেষ আপডেট ২৩ অক্টোবর ২০২২",
         link : "../others/suggestion-update.html",
