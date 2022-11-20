@@ -107,7 +107,7 @@ html{
     background-attachment: fixed;
     padding: 165px 0;
     background-position: top center;
-    /* display: none; */
+    display: none;
     height: 700px;
 }
 

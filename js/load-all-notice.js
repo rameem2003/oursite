@@ -1,5 +1,16 @@
 const noticeBoard = [
     {
+        // 5th semester suggestion
+        title : "৬ষ্ঠ সেমিস্টার",
+        subTitle : "সাজেশন এর আপডেট",
+        update : "সর্বশেষ আপডেট ২০ নভেম্বর ২০২২",
+        link : "../others/suggestion-update.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+    
+    {
         // 6th semester class routine
         title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "ক্লাস রুটিন",
@@ -19,17 +30,6 @@ const noticeBoard = [
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
         btnText : "ডাউনলোড করুন"
-    },
-    
-    {
-        // 5th semester suggestion
-        title : "৬ষ্ঠ সেমিস্টার",
-        subTitle : "সাজেশন এর আপডেট",
-        update : "সর্বশেষ আপডেট ২৩ অক্টোবর ২০২২",
-        link : "../others/suggestion-update.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
     },
 
 
