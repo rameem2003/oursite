@@ -1,6 +1,17 @@
 const noticeBoard = [
     {
-        // 5th semester suggestion
+        // 6th semester midterm
+        title : "৬ষ্ঠ সেমিস্টার",
+        subTitle : "মিডটার্ম পরীক্ষার রুটিন",
+        update : "সর্বশেষ আপডেট ২৩ নভেম্বর ২০২২",
+        link : "../others/6th-semester-midterm-exam-routine.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+
+    {
+        // 6th semester suggestion
         title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "সাজেশন এর আপডেট",
         update : "সর্বশেষ আপডেট ২০ নভেম্বর ২০২২",
