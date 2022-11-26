@@ -1,5 +1,5 @@
 function timeCounter(){
-    var ramadan = new Date("27 Novembor 2022").getTime();
+    var ramadan = new Date("27 November 2022").getTime();
     var today = new Date().getTime();
 
     totalTime = (ramadan - today)/1000;
