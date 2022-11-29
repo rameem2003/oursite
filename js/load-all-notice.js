@@ -1,5 +1,17 @@
 const noticeBoard = [
     {
+        // Project
+        title : "Team List",
+        subTitle : "Microcontroller Project",
+        update : "সর্বশেষ আপডেট ",
+        link : "#",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "আসছে",
+        disable : "disabled"
+    },
+
+    {
         // 6th semester midterm
         title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "মিডটার্ম পরীক্ষার রুটিন",
