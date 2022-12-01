@@ -3,7 +3,7 @@ const noticeBoard = [
         // Project
         title : "Team List",
         subTitle : "Microcontroller Project",
-        update : "সর্বশেষ আপডেট ৩০ নভেম্বর ২০২২",
+        update : "সর্বশেষ আপডেট ০১ ডিসেম্বর ২০২২",
         link : "../others/microcontroller_application.html",
         btnColor : "btn-primary",
         downloadIcon : "",
