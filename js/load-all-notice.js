@@ -1,5 +1,38 @@
 const noticeBoard = [
     {
+        // Project
+        title : "Team List",
+        subTitle : "Microcontroller Project",
+        update : "সর্বশেষ আপডেট ০৩ ডিসেম্বর ২০২২",
+        link : "../others/microcontroller_application.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন",
+    },
+
+    {
+        // 6th semester midterm
+        title : "৬ষ্ঠ সেমিস্টার",
+        subTitle : "মিডটার্ম পরীক্ষার রুটিন",
+        update : "সর্বশেষ আপডেট ২৩ নভেম্বর ২০২২",
+        link : "../others/6th-semester-midterm-exam-routine.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+
+    {
+        // 6th semester suggestion
+        title : "৬ষ্ঠ সেমিস্টার",
+        subTitle : "সাজেশন এর আপডেট",
+        update : "সর্বশেষ আপডেট ৩০ নভেম্বর ২০২২",
+        link : "../others/suggestion-update.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+    
+    {
         // 6th semester class routine
         title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "ক্লাস রুটিন",
@@ -19,17 +52,6 @@ const noticeBoard = [
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
         btnText : "ডাউনলোড করুন"
-    },
-    
-    {
-        // 5th semester suggestion
-        title : "৬ষ্ঠ সেমিস্টার",
-        subTitle : "সাজেশন এর আপডেট",
-        update : "সর্বশেষ আপডেট ২৩ অক্টোবর ২০২২",
-        link : "../others/suggestion-update.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
     },
 
 
