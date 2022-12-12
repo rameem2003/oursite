@@ -1,5 +1,17 @@
 const noticeBoard = [
     {
+        // Presentation
+        title : "Presentation",
+        subTitle : "DBMS",
+        update : "সর্বশেষ আপডেট ১২ ডিসেম্বর ২০২২",
+        link : "../others/presentation.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন",
+        disable : "disabled"
+    },
+
+    {
         // Project
         title : "Team List",
         subTitle : "Microcontroller Project",
