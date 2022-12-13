@@ -28,6 +28,12 @@ const presentation = {
         "Database Security Encryption",
         "Sequencial File Organization",
         "Authentication Level",
+    ],
+
+    mong : [
+        "RDBMS Security",
+        "File Organization",
+        "Encryption"
     ]
 
 
@@ -68,7 +74,7 @@ const regularStudent = [
     {
         name : "Mong Mong San",
         roll : 451643,
-        topic : "",
+        topic : presentation.mong,
     },
 
     {
