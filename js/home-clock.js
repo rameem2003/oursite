@@ -57,7 +57,7 @@ function home_clock(){
         second = '0' + second;
     }
 
-    document.getElementById("clock").innerHTML = `এখন সময় ${hour} : ${minute} : ${second}`;
+    document.getElementById("clock").innerHTML = `${hour} : ${minute} : ${second}`;
 
     days.innerHTML = ` || ${arrayOfWeek[daysNumber]}`
 

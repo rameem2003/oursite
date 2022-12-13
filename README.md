@@ -31,6 +31,7 @@ https://rameem2003.github.io/oursite/
 - [x] Font Awesome
 - [x] JavaScript
 - [x] jQuery
+- [x] Open Weather API
 ---
 
 # This is me
