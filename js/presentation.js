@@ -126,6 +126,12 @@ const regularStudent = [
     },
 
     {
+        name : "Fatema Begum",
+        roll : 451708,
+        topic : presentation.pathan,
+    },
+
+    {
         name : "Pabel Pathan",
         roll : 144812,
         topic : presentation.pathan
