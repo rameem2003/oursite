@@ -3,7 +3,7 @@ const noticeBoard = [
         // Presentation
         title : "Presentation",
         subTitle : "DBMS",
-        update : "সর্বশেষ আপডেট ১৩ ডিসেম্বর ২০২২",
+        update : "সর্বশেষ আপডেট ১৮ ডিসেম্বর ২০২২",
         link : "../others/presentation.html",
         btnColor : "btn-primary",
         downloadIcon : "",

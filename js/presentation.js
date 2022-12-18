@@ -60,9 +60,27 @@ const regularStudent = [
     },
 
     {
+        name : "Mamun Sarkar",
+        roll : 451629,
+        topic : presentation.rameem,
+    },
+
+    {
+        name : "Tushar Ahmed",
+        roll : 451632,
+        topic : presentation.fahmida,
+    },
+
+    {
         name : "Mahmood Hassan Rameem",
         roll : 451638,
         topic : presentation.rameem,
+    },
+
+    {
+        name : "Mohammad Shishir Ahmed",
+        roll : 451640,
+        topic : presentation.pathan,
     },
 
     {
@@ -102,15 +120,69 @@ const regularStudent = [
     },
 
     {
+        name : "Nusrat Jahan Sorna",
+        roll : 451655,
+        topic : presentation.mahabul
+    },
+
+    {
+        name : "Abdullah Al Mamun",
+        roll : 451659,
+        topic : presentation.mong,
+    },
+
+    {
+        name : "Rifatun Naher Mim",
+        roll : 451663,
+        topic : presentation.bithi,
+    },
+
+    {
         name : "Jahedul Islam Rasel",
         roll : 451670,
         topic : presentation.rameem,
     },
 
     {
+        name : "Mohammad Najmul Islam",
+        roll : 451671,
+        topic : presentation.pathan,
+    },
+
+    {
+        name : "Maysha Siddiqi",
+        roll : 451672,
+        topic : presentation.bithi,
+    },
+
+    {
+        name : "Najmus Sakib Junayed",
+        roll : 451673,
+        topic : presentation.mong,
+    },
+
+    {
+        name : "Reetu Rahman",
+        roll : 451682,
+        topic : presentation.mong,
+    },
+
+    {
         name : "Farzana Akter Shithila",
         roll : 451683,
         topic : presentation.bithi,
+    },
+
+    {
+        name : "Mohammad Sohel Rana",
+        roll : 451686,
+        topic : presentation.mahabul,
+    },
+
+    {
+        name : "Nayem Kibria",
+        roll : 451692,
+        topic : presentation.fahmida,
     },
 
     {
@@ -132,10 +204,28 @@ const regularStudent = [
     },
 
     {
+        name : "Sumona Islam Chadni",
+        roll : 495514,
+        topic : presentation.pathan,
+    },
+
+    {
         name : "Pabel Pathan",
         roll : 144812,
         topic : presentation.pathan
-    }
+    },
+
+    {
+        name : "Mohammad Mainuddin",
+        roll : 184351,
+        topic : presentation.mahabul,
+    },
+
+    {
+        name : "Mahammad Jasim Uddin",
+        roll : 185533,
+        topic : presentation.mong,
+    },
 
 
 ]
