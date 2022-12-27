@@ -1,5 +1,5 @@
 function timeCounter(){
-    var ramadan = new Date("27 November 2022").getTime();
+    var ramadan = new Date("01 January 2023").getTime();
     var today = new Date().getTime();
 
     totalTime = (ramadan - today)/1000;
@@ -17,8 +17,8 @@ function timeCounter(){
 
 
     if(day < 0 && hour < 0 && minute < 0 && second < 0){
-        count_down_title.innerHTML = "পরীক্ষা শুরু";
-        count_down_title.style.fontSize = "60px";
+        count_down_title.innerHTML = "HAPPY NEW YEAR";
+        count_down_title.style.fontSize = "80px";
         time_counter_body.style.display = "none";
     }
 
