@@ -1,4 +1,4 @@
-document.getElementById("rights").innerHTML = "&copy; ২০২২ মাহমুদ হাসান রামীম। সর্বসত্ত্ব সংরক্ষিত।";
+document.getElementById("rights").innerHTML = "&copy; ২০২৩ মাহমুদ হাসান রামীম। সর্বসত্ত্ব সংরক্ষিত।";
 
 $("#hide_text").hide(); // from index.html
 $("#php_code").hide(); // form web development assignment-update.html
