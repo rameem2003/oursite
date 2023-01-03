@@ -138,6 +138,12 @@ const regularStudent = [
     },
 
     {
+        name : "Raihan Mahmud Salman",
+        roll : 451664,
+        topic : presentation.pathan
+    },
+
+    {
         name : "Jahedul Islam Rasel",
         roll : 451670,
         topic : presentation.rameem,
