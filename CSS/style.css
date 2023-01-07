@@ -102,6 +102,7 @@ html{
 .banner{
     margin-top: 120px;
     background-image: url("../img/istt_banner_dark.png");
+    background-image: url("../img//gallery/group_pic/group_pic_15.jpg");
     /* background-image: url("../img/victory-day.jpg"); */
     background-size: cover;
     object-fit: cover;
@@ -109,7 +110,7 @@ html{
     background-attachment: fixed;
     padding: 165px 0;
     background-position: top center;
-    display: none;
+    /* display: none; */
     height: 700px;
 }
 
