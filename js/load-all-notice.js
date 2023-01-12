@@ -1,5 +1,16 @@
 const noticeBoard = [
     {
+        // 6th semester midterm
+        title : "৬ষ্ঠ সেমিস্টার",
+        subTitle : "ফাইনাল পরীক্ষার রুটিন",
+        update : "সর্বশেষ আপডেট ১২ জানুয়ারি ২০২৩",
+        link : "../others/semester-final-exam-routine.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
+
+    {
         // Presentation
         title : "Presentation",
         subTitle : "DBMS",
@@ -72,18 +83,6 @@ const noticeBoard = [
         subTitle : "বইয়ের তালিকা",
         update : "সর্বশেষ আপডেট ০৬ অক্টোবর ২০২২",
         link : "../docs/Book list 6th semester.pdf",
-        btnColor : "btn-danger",
-        downloadIcon : `<i class="fas fa-download"></i>`,
-        btnText : "ডাউনলোড করুন"
-    },
-
-
-    {
-        // 5th semester class routine
-        title : "৫ম সেমিস্টার",
-        subTitle : "ক্লাস রুটিন",
-        update : "সর্বশেষ আপডেট ৯ই জুন ২০২২",
-        link: "../docs/5th Semester class routine(reviced).pdf",
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
         btnText : "ডাউনলোড করুন"
