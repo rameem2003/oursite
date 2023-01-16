@@ -37,7 +37,7 @@ const noticeBoard = [
         // 5th semester assignment
         title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "Assignment এর আপডেট",
-        update : "সর্বশেষ আপডেট ০২ জানুয়ারি ২০২৩",
+        update : "সর্বশেষ আপডেট ১৬ জানুয়ারি ২০২৩",
         link : "../others/assignment-update.html",
         btnColor : "btn-primary",
         downloadIcon : "",
