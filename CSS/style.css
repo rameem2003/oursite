@@ -5,9 +5,9 @@
     font-family: 'Noto Sans Bengali', sans-serif;
 }
 
-.ui{
+/* .ui{
     display: none;
-}
+} */
 
 .loading_animation{
     background-color: rgb(0, 89, 255);
@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .loading_animation > div{
