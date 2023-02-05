@@ -12,6 +12,7 @@
 .loading_animation{
     background-color: rgb(0, 89, 255);
     /* background-image: linear-gradient(120deg, red, green); */
+    /* background-image: linear-gradient(120deg, black gray); */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -102,8 +103,9 @@ html{
 /* Banner start */
 .banner{
     margin-top: 120px;
-    background-image: url("../img/istt_banner_dark.png");
-    background-image: url("../img//gallery/group_pic/group_pic_15.jpg");
+    /* background-image: url("../img/istt_banner_dark.png"); */
+    /* background-image: url("../img//gallery/group_pic/group_pic_15.jpg"); */
+    background-image: url("https://lh3.googleusercontent.com/CewJgiSNZOd3aUwwwei-0xqx6_K0Q06RBfxHVUm0TpNzGgmAvBr8WCqMzxyvbqpvuNmQnZ3z7QyFRZUEBPh9kDSahO8TXw=w720-h390-p-rw");
     /* background-image: url("../img/victory-day.jpg"); */
     background-size: cover;
     object-fit: cover;
@@ -166,8 +168,9 @@ html{
 .introduce .profile{
     width: 350px;
     border-radius: 8px;
-    background: linear-gradient(120deg, rgba(12,182,199,1) 0%, rgba(9,121,63,1) 0%, rgba(7,140,103,1) 0%, rgba(57,78,180,1) 100%);
+    /* background: linear-gradient(120deg, rgba(12,182,199,1) 0%, rgba(9,121,63,1) 0%, rgba(7,140,103,1) 0%, rgba(57,78,180,1) 100%); */
     /* background-image: linear-gradient(120deg, red, green); */
+    background-image: linear-gradient(120deg, black, gray);
     margin: 20px auto;
     color: white;
 }
