@@ -19,7 +19,7 @@ html{
 /* assignment & suggestion part */
 .assignment, .suggetion{
     margin: 120px 0;
-    /* display: none; */
+    display: none;
 }
 
 .assignment dl dd, .suggetion dl dd{

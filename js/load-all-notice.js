@@ -1,50 +1,27 @@
 const noticeBoard = [
 
-    {
-        // 6th semester final
-        title : "৬ষ্ঠ সেমিস্টার",
-        subTitle : "ব্যবহারিক পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ২৬ ফেব্রুয়ারি ২০২৩",
-        link : "../others/semester-practical-exam-routine.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
-    },
+    // {
+    //     // 6th semester final
+    //     title : "৬ষ্ঠ সেমিস্টার",
+    //     subTitle : "ব্যবহারিক পরীক্ষার রুটিন",
+    //     update : "সর্বশেষ আপডেট ২৬ ফেব্রুয়ারি ২০২৩",
+    //     link : "../others/semester-practical-exam-routine.html",
+    //     btnColor : "btn-primary",
+    //     downloadIcon : "",
+    //     btnText : "দেখুন"
+    // },
 
 
-    {
-        // 6th semester final
-        title : "৬ষ্ঠ সেমিস্টার",
-        subTitle : "ফাইনাল পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ১২ জানুয়ারি ২০২৩",
-        link : "../others/semester-final-exam-routine.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
-    },
-
-    {
-        // Presentation
-        title : "Presentation",
-        subTitle : "DBMS",
-        update : "সর্বশেষ আপডেট ১৮ ডিসেম্বর ২০২২",
-        link : "../others/presentation.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন",
-        // disable : "disabled"
-    },
-
-    {
-        // Project
-        title : "Team List",
-        subTitle : "Microcontroller Project",
-        update : "সর্বশেষ আপডেট ০৮ জানুয়ারি ২০২৩",
-        link : "../others/microcontroller_application.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন",
-    },
+    // {
+    //     // 6th semester final
+    //     title : "৬ষ্ঠ সেমিস্টার",
+    //     subTitle : "ফাইনাল পরীক্ষার রুটিন",
+    //     update : "সর্বশেষ আপডেট ১২ জানুয়ারি ২০২৩",
+    //     link : "../others/semester-final-exam-routine.html",
+    //     btnColor : "btn-primary",
+    //     downloadIcon : "",
+    //     btnText : "দেখুন"
+    // },
 
     {
         // 5th semester assignment
@@ -68,34 +45,34 @@ const noticeBoard = [
         btnText : "দেখুন"
     },
 
-    {
-        // 6th semester midterm
-        title : "৬ষ্ঠ সেমিস্টার",
-        subTitle : "মিডটার্ম পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ২৩ নভেম্বর ২০২২",
-        link : "../others/6th-semester-midterm-exam-routine.html",
-        btnColor : "btn-primary",
-        downloadIcon : "",
-        btnText : "দেখুন"
-    },
+    // {
+    //     // 6th semester midterm
+    //     title : "৬ষ্ঠ সেমিস্টার",
+    //     subTitle : "মিডটার্ম পরীক্ষার রুটিন",
+    //     update : "সর্বশেষ আপডেট ২৩ নভেম্বর ২০২২",
+    //     link : "../others/6th-semester-midterm-exam-routine.html",
+    //     btnColor : "btn-primary",
+    //     downloadIcon : "",
+    //     btnText : "দেখুন"
+    // },
     
-    {
-        // 6th semester class routine
-        title : "৬ষ্ঠ সেমিস্টার",
-        subTitle : "ক্লাস রুটিন",
-        update : "সর্বশেষ আপডেট ১৩ অক্টোবর ২০২২",
-        link : "../docs/6th Semester class routine.pdf",
-        btnColor : "btn-danger",
-        downloadIcon : `<i class="fas fa-download"></i>`,
-        btnText : "ডাউনলোড করুন"
-    },
+    // {
+    //     // 6th semester class routine
+    //     title : "৬ষ্ঠ সেমিস্টার",
+    //     subTitle : "ক্লাস রুটিন",
+    //     update : "সর্বশেষ আপডেট ১৩ অক্টোবর ২০২২",
+    //     link : "../docs/6th Semester class routine.pdf",
+    //     btnColor : "btn-danger",
+    //     downloadIcon : `<i class="fas fa-download"></i>`,
+    //     btnText : "ডাউনলোড করুন"
+    // },
 
     {
-        // 6th semester book list
-        title : "৬ষ্ঠ সেমিস্টার",
+        // 7th semester book list
+        title : "৭ম সেমিস্টার",
         subTitle : "বইয়ের তালিকা",
-        update : "সর্বশেষ আপডেট ০৬ অক্টোবর ২০২২",
-        link : "../docs/Book list 6th semester.pdf",
+        update : "সর্বশেষ আপডেট ০৫ মার্চ ২০২৩",
+        link : "../docs/7th_semester_book_list.pdf",
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
         btnText : "ডাউনলোড করুন"
