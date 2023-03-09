@@ -24,6 +24,17 @@ const noticeBoard = [
     // },
 
     {
+        // 6th semester class routine
+        title : "৭ম সেমিস্টার",
+        subTitle : "ক্লাস রুটিন",
+        update : "সর্বশেষ আপডেট ০৯ মার্চ ২০২৩",
+        link : "../docs/7th_semester_class_routine.pdf",
+        btnColor : "btn-danger",
+        downloadIcon : `<i class="fas fa-download"></i>`,
+        btnText : "ডাউনলোড করুন"
+    },
+
+    {
         // 5th semester assignment
         title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "Assignment এর আপডেট",
