@@ -77,8 +77,8 @@ header, .student-list, footer{
 .list-panel .profile{
     width: 350px;
     border-radius: 8px;
-    /* background: linear-gradient(120deg, rgba(12,182,199,1) 0%, rgba(9,121,63,1) 0%, rgba(7,140,103,1) 0%, rgba(57,78,180,1) 100%); */
-    background-image: linear-gradient(120deg, red, green);
+    background: linear-gradient(120deg, rgba(12,182,199,1) 0%, rgba(9,121,63,1) 0%, rgba(7,140,103,1) 0%, rgba(57,78,180,1) 100%);
+    /* background-image: linear-gradient(120deg, red, green); */
     /* background-image: linear-gradient(120deg, black, gray); */
     margin: 20px auto;
     color: white;

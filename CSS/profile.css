@@ -33,7 +33,7 @@ hr{
 }
 .body .main-title{
     border-radius: 10px 10px 0 0;
-    background-image: linear-gradient(120deg, red, green);
+    /* background-image: linear-gradient(120deg, red, green); */
     /* background-image: linear-gradient(120deg, black, gray) !important; */
 }
 .body .title{
