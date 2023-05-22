@@ -22,6 +22,10 @@ html{
     /* display: none; */
 }
 
+.suggetion{
+    display: none;
+}
+
 .assignment dl dd, .suggetion dl dd{
     margin-left: 20px;
 }

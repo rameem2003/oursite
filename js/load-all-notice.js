@@ -27,7 +27,7 @@ const noticeBoard = [
         // 6th semester class routine
         title : "৭ম সেমিস্টার",
         subTitle : "ক্লাস রুটিন",
-        update : "সর্বশেষ আপডেট ০৯ মার্চ ২০২৩",
+        update : "সর্বশেষ আপডেট ০৯ ই মার্চ ২০২৩",
         link : "../docs/7th_semester_class_routine.pdf",
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
@@ -38,7 +38,7 @@ const noticeBoard = [
         // 7th semester assignment
         title : "৭ম সেমিস্টার",
         subTitle : "Assignment এর আপডেট",
-        update : "সর্বশেষ আপডেট ০২ এপ্রিল ২০২৩",
+        update : "সর্বশেষ আপডেট ২২ ই মে ২০২৩",
         link : "../others/assignment-update.html",
         btnColor : "btn-primary",
         downloadIcon : "",
@@ -49,7 +49,7 @@ const noticeBoard = [
         // 6th semester suggestion
         title : "৬ষ্ঠ সেমিস্টার",
         subTitle : "সাজেশন এর আপডেট",
-        update : "সর্বশেষ আপডেট ০২ ফেব্রুয়ারি ২০২৩",
+        update : "সর্বশেষ আপডেট ০২ রা ফেব্রুয়ারি ২০২৩",
         link : "../others/suggestion-update.html",
         btnColor : "btn-primary",
         downloadIcon : "",
@@ -82,7 +82,7 @@ const noticeBoard = [
         // 7th semester book list
         title : "৭ম সেমিস্টার",
         subTitle : "বইয়ের তালিকা",
-        update : "সর্বশেষ আপডেট ০৫ মার্চ ২০২৩",
+        update : "সর্বশেষ আপডেট ০৫ ই মার্চ ২০২৩",
         link : "../docs/7th_semester_book_list.pdf",
         btnColor : "btn-danger",
         downloadIcon : `<i class="fas fa-download"></i>`,
