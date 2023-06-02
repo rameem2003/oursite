@@ -38,7 +38,12 @@ function home_clock(){
     if(hour < 12){
         formate.innerHTML = "AM";
     }
-    if(hour >= 12){
+
+    if(hour > 11){
+        formate.innerHTML = "PM"
+    }
+    
+    if(hour > 12){
         hour = hour - 12;
         formate.innerHTML = "PM";
     }

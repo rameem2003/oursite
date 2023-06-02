@@ -1,8 +1,37 @@
 const youtube = [
+
     {
         // Listen coder's
 
-        tumbnail : "https://yt3.ggpht.com/d78bqT1CXxI3NBO4i50BH_tAVxynt3gVlyLP97EWFYCP4CGaUPY7ogTTjQ2c0kYOMsS3wflqYQ=s88-c-k-c0x00ffffff-no-rj",
+        tumbnail : "https://yt3.googleusercontent.com/TDsYiFewzbNR19DuM2TusvAo16gFUWHXz-Y7k9L9-iYtBFpYWXXSp3rPYMnGghZKBLOg6K0RgYY=s176-c-k-c0x00ffffff-no-rj",
+
+        titleName : "Republic of Legends",
+
+        subTitle : "Android Development",
+
+        topic : "XML, JAVA",
+
+        youtubeLink : "https://www.youtube.com/playlist?list=PLIAcm_4Er8ZaZuPqJQSIDFEhZmUC2x60V",
+    },
+
+    {
+        // Listen coder's
+
+        tumbnail : "https://yt3.googleusercontent.com/TDsYiFewzbNR19DuM2TusvAo16gFUWHXz-Y7k9L9-iYtBFpYWXXSp3rPYMnGghZKBLOg6K0RgYY=s176-c-k-c0x00ffffff-no-rj",
+
+        titleName : "Republic of Legends",
+
+        subTitle : "SQL Tutorials",
+
+        topic : "XAMPP, SQL",
+
+        youtubeLink : "https://youtube.com/playlist?list=PLIAcm_4Er8ZYJ0j5o1i9mWs05O6i1XQ6v",
+    },
+
+    {
+        // Listen coder's
+
+        tumbnail : "https://yt3.googleusercontent.com/_4HMsc2PoJGF64YVxpCEEi4VJnSVP3ulSHcrYbPGKcaQhsQOmftW7vGGoLdt_R3OIBPEuvmEfw=s176-c-k-c0x00ffffff-no-rj",
 
         titleName : "Listen Coder",
 
@@ -69,21 +98,7 @@ const youtube = [
         topic : "",
 
         youtubeLink : "https://youtube.com/playlist?list=PLI8xDViFp_S8dyJ2CAEyG_K2hNn57jaNK",
-    },
-
-    {
-        // React
-
-        tumbnail : "https://www.ethode.com/contentAsset/raw-data/84e3be24-58bc-499c-9d50-f8088158f11a/image",
-
-        titleName : "Udemy's",
-
-        subTitle : "React Tutorials",
-
-        topic : "React",
-
-        youtubeLink : "https://cloud.mdjobayer.com/index.php/s/GoKkDAAG4BjCMEs?fbclid=IwAR2i5cO83O3QD3uaahIeLrg4opFcTFVYYPz1ls0u7EtuwYWsqa68zAz-Z5s",
-    },
+    }
 ]
 
 

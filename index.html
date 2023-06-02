@@ -31,6 +31,11 @@
         <div></div>
     </div>
 
+    <div class="website_close_notice" id="website_close_notice">
+        <p>আমাদের এই ওয়েবসাইটটি আর অল্প কিছুদিনের জন্য চলমান থাকবে। ৭ম সেমিস্টার এর পর থেকে এই ওয়েবসাইটে আর কোন আপডেট আসবে না। নোটিশটি বন্ধ করতে ট্যাপ করুন।</p>
+        <button class="btn btn-danger" id="off_notice">নোটিশ এরিয়ে যান</button>
+    </div>
+
 
     <div class="pageShutDown">
         <i class="fas fa-satellite text-danger"></i>
@@ -466,7 +471,7 @@
                         </div>
                         <div class="pro-des">
                             <h2 class="text-center mt-4">মৌমিতা ইসলাম ঊর্মি</h2>
-                            <p class="text-center">CR এবং গ্রুপ অ্যাডমিন</p>
+                            <p class="text-center">গ্রুপ অ্যাডমিন</p>
                             <p class="text-center">ব্লাড গ্রুপঃ A+</p>
                             <a class="btn btn-warning text-center d-block" href="./profiles/moumita-islam-urmi-451706.html">প্রোফাইল পড়ুন</a>
                         </div>
@@ -616,6 +621,13 @@
         //     $('.loading_animation').fadeOut(1000);
         //     $('.ui').fadeIn(1000);
         // })
+
+        const website_close_notice = document.getElementById("website_close_notice");
+        const off_notice = document.getElementById("off_notice");
+
+        off_notice.addEventListener("click", () => {
+            website_close_notice.style.display = "none"
+        })
     </script>
 
 </body>
