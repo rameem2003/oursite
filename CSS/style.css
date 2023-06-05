@@ -27,6 +27,7 @@
     font-weight: bold;
     text-align: center;
     font-size: 50px;
+    cursor: pointer;
 }
 
 .loading_animation{
