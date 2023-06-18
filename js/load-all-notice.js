@@ -12,16 +12,16 @@ const noticeBoard = [
     // },
 
 
-    // {
-    //     // 6th semester final
-    //     title : "৬ষ্ঠ সেমিস্টার",
-    //     subTitle : "ফাইনাল পরীক্ষার রুটিন",
-    //     update : "সর্বশেষ আপডেট ১২ জানুয়ারি ২০২৩",
-    //     link : "../others/semester-final-exam-routine.html",
-    //     btnColor : "btn-primary",
-    //     downloadIcon : "",
-    //     btnText : "দেখুন"
-    // },
+    {
+        // 7th semester final
+        title : "৭ম সেমিস্টার",
+        subTitle : "ফাইনাল পরীক্ষার রুটিন",
+        update : "সর্বশেষ আপডেট ১৮ জুন ২০২৩",
+        link : "../others/semester-final-exam-routine.html",
+        btnColor : "btn-primary",
+        downloadIcon : "",
+        btnText : "দেখুন"
+    },
 
     {
         // 6th semester class routine
