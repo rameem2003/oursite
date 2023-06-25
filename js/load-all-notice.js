@@ -16,7 +16,7 @@ const noticeBoard = [
         // 7th semester final
         title : "৭ম সেমিস্টার",
         subTitle : "ফাইনাল পরীক্ষার রুটিন",
-        update : "সর্বশেষ আপডেট ১৮ জুন ২০২৩",
+        update : "সর্বশেষ আপডেট ২৫ জুন ২০২৩",
         link : "../others/semester-final-exam-routine.html",
         btnColor : "btn-primary",
         downloadIcon : "",
