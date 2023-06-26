@@ -27,7 +27,7 @@ function home_clock(){
     }
 
     if(hour >= 20){
-        greeting.innerHTML = "শুভ রাত্রি";
+        greeting.innerHTML = "শুভেচ্ছা";
     }
 
     // AMPM Setup
