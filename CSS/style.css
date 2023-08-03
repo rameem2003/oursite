@@ -153,14 +153,37 @@ html{
     height: 700px;
 }
 
-.banner h1{
+.banner-rag{
+    margin-top: 140px;
+}
+
+.banner-rag{
+    position: relative;
+}
+
+.banner-rag .rag-inner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), #013993);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.banner h1, .banner-rag .rag-inner h1{
     padding: 10px 0;
     font-size: 65px;
     font-weight: 600;
    font-family: 'Noto Sans Bengali', sans-serif;
     -webkit-text-stroke: 2px white;
 }
-.banner h2{
+.banner h2, .banner-rag .rag-inner h2{
     padding: 10px 0;
     font-size: 65px;
     font-weight: 600;
@@ -291,6 +314,17 @@ footer ul li a{
     .banner h2{
         font-size: 54px;
     }
+
+    .banner-rag .rag-inner h1{
+        font-size: 20px !important;
+        -webkit-text-stroke: 0;
+    }
+
+    .banner-rag .rag-inner h2{
+        font-size: 20px !important;
+        -webkit-text-stroke: 0;
+    }
+
 
     .about .read{
         margin: 0 auto;

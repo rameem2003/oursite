@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,19 @@
     <link rel="shortcut icon" href="./img/istt1.png" type="image/x-icon">
 
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
     <!-- Google fonts for Bangla -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&family=Ubuntu&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&family=Ubuntu&display=swap"
+        rel="stylesheet">
 
     <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
     <!-- Local CSS -->
@@ -25,14 +30,16 @@
     <link rel="stylesheet" href="./CSS/navbar.css">
     <link rel="stylesheet" href="./CSS/time-coundown.css">
 </head>
+
 <body>
 
     <div class="loading_animation">
         <div></div>
     </div>
 
-    <div class="website_close_notice" id="website_close_notice">
-        <p>আমাদের এই ওয়েবসাইটটি আর অল্প কিছুদিনের জন্য চলমান থাকবে। ৭ম সেমিস্টার এর পর থেকে এই ওয়েবসাইটে আর কোন আপডেট আসবে না। নোটিশটি বন্ধ করতে "নোটিশ এরিয়ে যান" বাটনে ট্যাপ করুন।</p>
+    <div class="website_close_notice d-none" id="website_close_notice">
+        <p>আমাদের এই ওয়েবসাইটটি আর অল্প কিছুদিনের জন্য চলমান থাকবে। ৭ম সেমিস্টার এর পর থেকে এই ওয়েবসাইটে আর কোন আপডেট
+            আসবে না। নোটিশটি বন্ধ করতে "নোটিশ এরিয়ে যান" বাটনে ট্যাপ করুন।</p>
         <button class="btn btn-danger" id="off_notice">নোটিশ এরিয়ে যান</button>
     </div>
 
@@ -43,297 +50,342 @@
     </div>
 
     <div class="ui">
-    <!-- Header start -->
-    <header class="fixed-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-sm navbar-dark">
+        <!-- Header start -->
+        <header class="fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-dark">
 
-                <a class="navbar-brand d-flex" href="./index.html">
-                    <img src="./img/istt1.png" class="img-fluid" alt="istt">
-                    <span class="ml-2">Batch Info</span>
+                    <a class="navbar-brand d-flex" href="./index.html">
+                        <img src="./img/istt1.png" class="img-fluid" alt="istt">
+                        <span class="ml-2">Batch Info</span>
+                    </a>
+
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item px-3"><a class="nav-link text-white d-block" href="./index.html">হোম</a>
+                            </li>
+                            <li class="nav-item px-3"><a class="nav-link text-white d-block" href="#about">আমরা</a></li>
+                            <li class="nav-item px-3"><a class="nav-link text-white d-block"
+                                    href="#gallary">গ্যালারি</a></li>
+                            <li class="nav-item px-3"><a class="nav-link text-white d-block"
+                                    href="#teachers">শিক্ষকবৃন্দ</a></li>
+                            <li class="nav-item px-3"><a class="nav-link text-white d-block"
+                                    href="./students_list_page/list.html">স্টুডেন্টস</a></li>
+                            <li class="nav-item px-3"><a class="nav-link text-white d-block"
+                                    href="./tutorials/tutorials.html">টিউটোরিয়াল</a></li>
+                            <li class="nav-item px-3"><a class="nav-link text-white d-block"
+                                    href="./others/others.html">অন্যান্য</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Header End -->
+
+
+        <div class="note">
+            <!-- <marquee behavior="" direction="" style="background-color: red; color: white; margin-top: 107px; font-weight: bolder;">ডাউনলোড করুন <a class="text-light" href="#android_app">"আমাদের অ্যাপ"</a> , শুধুমাত্র Android Smart Phone ব্যবহারকারীদের জন্য।  বাংলাদেশ কারিগরি শিক্ষা বোর্ডের সর্বশেষ আপডেট অনুযায়ী আগামী ১০ অক্টোবর ২০২২ হতে ৬ষ্ঠ সেমিস্টার এর ক্লাস শুরু হবে। মাস্ক পড়ুন, স্বাস্থ্যবিধি মেনে চলুন। ভ্যাকসিন গ্রহন করুন।  ধন্যবাদ। </marquee> -->
+
+            <div class="time">
+                <span id="clock"></span>
+                <span id="formate"></span>
+                <span id="days"></span>
+                <span id="temp"></span>
+            </div>
+        </div>
+
+        <!-- qr section for website -->
+        <div class="modal fade" id="qr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">এইযে ওয়েবসাইট এর QR Code</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="img-fluid" src="./img/qr.png" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-danger" href="./img/qr.png">QR Code ডাউনলোড করুন</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">বন্ধ করুন</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- qr section for website end-->
+
+        <!-- class rutine section -->
+        <div class="modal fade" id="practical_rutine" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">৭ম সেমিস্টার ক্লাস রুটিন</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="img-fluid" src="./docs/7th_semester_class_routine-1.png" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-danger" href="./docs/7th_semester_class_routine.pdf">ডাউনলোড করুন</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">বন্ধ করুন</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- class rutine section end -->
+
+        <!-- shortcut button -->
+        <div id="shortcut">
+            <button type="button" class="btn btn-warning text-dark shortcut_btn" data-toggle="modal"
+                data-target="#practical_rutine">৭ম সেমিস্টার ক্লাস রুটিন</button>
+            <a class="btn btn-primary shortcut_btn" href="./others/suggestion-update.html">সাজেশন দেখুন.</a>
+            <a class="btn btn-danger shortcut_btn" target="_blank" href="https://btebresultszone.com/results">৬ষ্ঠ
+                সেমিস্টার রেজাল্ট দেখুন।</a>
+            <button type="button" class="btn btn-warning text-dark shortcut_btn" data-toggle="modal"
+                data-target="#qr">আমি QR Code দেখতে চাই</button>
+        </div>
+        <!-- shortcut button end -->
+
+        <!-- bell button -->
+        <button id="bell" class="btn btn-warning rounded-circle"><i class="fas fa-bell"></i></button>
+        <!-- bell button end -->
+
+
+        <!-- Banner Start -->
+        <div class="banner d-none" id="banner">
+            <div class="container">
+                <h2 class="text-center text-danger" id="greeting"></h2>
+                <h1 class="text-center text-danger animated_text"></h1>
+                <a href="" class="btn btn-danger">আমি</a>
+                <!-- <h2 class="text-center text-danger">কম্পিউটার ব্যাচ ২০১৯-২০</h2> -->
+            </div>
+        </div>
+        <!-- Banner end -->
+
+        <!-- Special banner RAG DAY -->
+        <div class="banner-rag">
+
+            <img class="d-block  w-100" src="./img/gallery/group_pic/group_pic_16.jpg" alt="First slide">
+
+
+            <div class="rag-inner">
+                <h1 class="text-white text-center">ব্যাচ উদযাপন ২০২৩</h1>
+                <h2 class="text-white text-center">কম্পিউটার টেকনোলোজি ২০১৯ - ২০</h2>
+
+                <a href="./others/ragday2023.html" target="_blank" class="btn btn-warning d-inline-block mt-2 mx-auto"> শীঘ্রই আসছে....</a>
+            </div>
+
+        </div>
+        <!-- Special banner RAG DAY end -->
+
+
+
+
+        <!-- count-down of exam -->
+        <div class="count-down" id="count_down">
+            <div class="container">
+                <h1 class="head text-center my-3 text-white" id="count_down_title">New Year Countdown</h1>
+
+                <section id="time_counter_body">
+                    <div class="time">
+                        <h2 id="day">00</h2>
+                        <span>Day's</span>
+                    </div>
+
+                    <div class="time">
+                        <h2 id="hour">00</h2>
+                        <span>Hour</span>
+                    </div>
+
+                    <div class="time">
+                        <h2 id="minute">00</h2>
+                        <span>Minute</span>
+                    </div>
+
+                    <div class="time">
+                        <h2 id="second">00</h2>
+                        <span>Second</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- count-down of exam end -->
+
+
+
+
+
+        <!-- About Computer Technology -->
+        <div class="about py-3 text-md-left text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 py-5">
+                        <h1 class="text-center head">শুরুতেই কম্পিউটার টেকনোলজি</h1>
+                    </div>
+                </div>
+
+
+                <div class="row description">
+                    <div class="col-md-4 col-sm-12">
+                        <img src="./img/computer-technology-1024x1024.jpg" class="img-fluid" alt="computert technology">
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h4 class="text-danger">একটি জানালা একটি দৃশ্য,</h4>
+                        <h4 class="text-danger">একটি কম্পিউটার সারা বিশ্ব।</h4>
+
+                        <p class="text-justify">কম্পিউটার প্রকৌশলীদের ইলেকট্রনিক্স প্রকৌশল সফটওয়ার ডিজাইন ও
+                            হার্ডওয়ার-সফটওয়ার একত্রীকরণ প্রভৃতি ক্ষেত্রে বিশেষ শিক্ষা ও দক্ষতা আছে। কম্পিউটার প্রকৌশলী
+                            কম্পিউটিং এর মাইক্রোপ্রসেসর, পার্সোনাল কম্পিউটার, এবং সুপারকম্পিউটার ডিজাইন থেকে শুরু করে
+                            সার্কিট ডিজাইন সহ বিভিন্ন ক্ষেত্রে অবদান রাখেন। কম্পিউটার প্রকৌশলীর সাধারণ কার্যাবলীর মধ্যে
+                            রয়েছে সাধারণ ও বিশেষ কম্পিউটারের জন্য সফটওয়ার তৈরি করা, এমবেডেড মাইক্রোকন্ট্রোলারের জন্য
+                            ফার্মওয়ার লিখা, বিভিন্ন ভিএলএসআই চিপ ডিজাইন, বিভিন্ন এনালগ সেন্সর ডিজাইন, বিভিন্ন সার্কিট
+                            বোর্ড ডিজাইন এবং অপারেটিং সিস্টেম ডিজাইন প্রভৃতি। কম্পিউটার প্রকৌশলীরা রোবোটিক্স গবেষণার
+                            জন্য উপযুক্ত, যা বিভিন্ন তড়িৎ সিস্টেম যেমন মোটর, যোগাযোগব্যবস্থা, সেন্সর প্রভৃতি
+                            নিয়ন্ত্রণে ডিজিটাল সিস্টেমের উপর পুরোপুরি নির্ভরশীল। ভার্চুয়াল জগতের এই পৃথীবিতে মানুষ দিন
+                            দিন কম্পিউটার নির্ভর হয়ে পড়ছে ফলে বাড়ছে কম্পিউটার ইঞ্জিনিয়ারিং বিভাগ থেকে পাশ করা দক্ষ
+                            প্রকৌশলীদের চাহিদা।</p>
+
+                        <p class="text-justify" id="hide_text">কম্পিউটার প্রকৌশল একটি শাখা প্রকৌশল যে বিভিন্ন ক্ষেত্র
+                            সংহত কম্পিউটার বিজ্ঞান এবং ইলেকট্রনিক প্রকৌশল কম্পিউটার হার্ডওয়্যার এবং সফটওয়্যার
+                            উন্নয়নের জন্য প্রয়োজনীয়। কম্পিউটার প্রকৌশল ছেদ এ বিদ্যমান প্রযুক্তি এবং উদ্ভাবন। একটি
+                            গতিশীল পেশাদার ক্ষেত্র হিসাবে, এটি হার্ডওয়্যার প্রকৌশল (যেমন মাইক্রোপ্রসেসরস) এবং
+                            সফ্টওয়্যার ডেভেলপমেন্ট উভয় ক্ষেত্রে বিভিন্ন ক্যারিয়ার পথ সরবরাহ করে, যা প্রতিটি
+                            এয়ারস্পেস থেকে স্বাস্থ্যসেবা পর্যন্ত শিল্পগুলিতে কম্পিউটিং অগ্রগতি প্রচার করে।</p>
+
+                        <button class="btn btn-outline-primary" id="hide_btn">আরও পড়ুন</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Computer Technology End-->
+
+        <!-- Gallery -->
+        <div class="gallery py-3 col-sm-12" id="gallary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="head text-center text-primary">গ্যালারী</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery window -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./img/istt_banner.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_10.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_11.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_12.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_13.jpg" alt="Second slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_14.jpg" alt="Second slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_15.jpg" alt="Second slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_1.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_2.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_3.jpg" alt="Third slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_4.jpg" alt="Third slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_5.jpg" alt="Third slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_6.jpg" alt="Third slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_7.jpg" alt="Third slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_8.jpg" alt="Third slide">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_9.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
-
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item px-3"><a class="nav-link text-white d-block" href="./index.html">হোম</a></li>
-                        <li class="nav-item px-3"><a class="nav-link text-white d-block" href="#about">আমরা</a></li>
-                        <li class="nav-item px-3"><a class="nav-link text-white d-block" href="#gallary">গ্যালারি</a></li>
-                        <li class="nav-item px-3"><a class="nav-link text-white d-block" href="#teachers">শিক্ষকবৃন্দ</a></li>
-                        <li class="nav-item px-3"><a class="nav-link text-white d-block" href="./students_list_page/list.html">স্টুডেন্টস</a></li>
-                        <li class="nav-item px-3"><a class="nav-link text-white d-block" href="./tutorials/tutorials.html">টিউটোরিয়াল</a></li>
-                        <li class="nav-item px-3"><a class="nav-link text-white d-block" href="./others/others.html">অন্যান্য</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- Header End -->
-
-
-    <div class="note">
-        <!-- <marquee behavior="" direction="" style="background-color: red; color: white; margin-top: 107px; font-weight: bolder;">ডাউনলোড করুন <a class="text-light" href="#android_app">"আমাদের অ্যাপ"</a> , শুধুমাত্র Android Smart Phone ব্যবহারকারীদের জন্য।  বাংলাদেশ কারিগরি শিক্ষা বোর্ডের সর্বশেষ আপডেট অনুযায়ী আগামী ১০ অক্টোবর ২০২২ হতে ৬ষ্ঠ সেমিস্টার এর ক্লাস শুরু হবে। মাস্ক পড়ুন, স্বাস্থ্যবিধি মেনে চলুন। ভ্যাকসিন গ্রহন করুন।  ধন্যবাদ। </marquee> -->
-
-        <div class="time">
-            <span id="clock"></span>
-            <span id="formate"></span>
-            <span id="days"></span>
-            <span id="temp"></span>
-        </div>
-    </div>
-
-    <!-- qr section for website -->
-    <div class="modal fade" id="qr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">এইযে ওয়েবসাইট এর QR Code</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body text-center">
-                <img class="img-fluid" src="./img/qr.png" alt="">
-            </div>
-            <div class="modal-footer">
-                <a class="btn btn-danger" href="./img/qr.png">QR Code ডাউনলোড করুন</a>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">বন্ধ করুন</button>
-            </div>
-          </div>
-        </div>
-    </div>
-    <!-- qr section for website end-->
-
-    <!-- class rutine section -->
-    <div class="modal fade" id="practical_rutine" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">৭ম সেমিস্টার ক্লাস রুটিন</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body text-center">
-                <img class="img-fluid" src="./docs/7th_semester_class_routine-1.png" alt="">
-            </div>
-            <div class="modal-footer">
-                <a class="btn btn-danger" href="./docs/7th_semester_class_routine.pdf">ডাউনলোড করুন</a>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">বন্ধ করুন</button>
-            </div>
-          </div>
-        </div>
-    </div>
-    <!-- class rutine section end -->
-
-    <!-- shortcut button -->
-    <div id="shortcut">
-        <button type="button" class="btn btn-warning text-dark shortcut_btn" data-toggle="modal" data-target="#practical_rutine">৭ম সেমিস্টার ক্লাস রুটিন</button>
-        <a class="btn btn-primary shortcut_btn" href="./others/suggestion-update.html">সাজেশন দেখুন.</a>
-        <a class="btn btn-danger shortcut_btn" target="_blank" href="https://btebresultszone.com/results">৬ষ্ঠ সেমিস্টার রেজাল্ট দেখুন।</a>
-        <button type="button" class="btn btn-warning text-dark shortcut_btn" data-toggle="modal" data-target="#qr">আমি QR Code দেখতে চাই</button>
-    </div>
-    <!-- shortcut button end -->
-
-    <!-- bell button -->
-    <button id="bell" class="btn btn-warning rounded-circle"><i class="fas fa-bell"></i></button>
-    <!-- bell button end -->
-
-
-    <!-- Banner Start -->
-    <div class="banner" id="banner">
-        <div class="container">
-            <h2 class="text-center text-danger" id="greeting"></h2>
-            <h1 class="text-center text-danger animated_text"></h1>
-            <!-- <h2 class="text-center text-danger">কম্পিউটার ব্যাচ ২০১৯-২০</h2> -->
-        </div>
-    </div>
-    <!-- Banner end -->
-
-
-
-
-    <!-- count-down of exam -->
-    <div class="count-down" id="count_down">
-        <div class="container">
-            <h1 class="head text-center my-3 text-white" id="count_down_title">New Year Countdown</h1>
-
-            <section id="time_counter_body">
-                <div class="time">
-                    <h2 id="day">00</h2>
-                    <span>Day's</span>
-                </div>
-
-                <div class="time">
-                    <h2 id="hour">00</h2>
-                    <span>Hour</span>
-                </div>
-
-                <div class="time">
-                    <h2 id="minute">00</h2>
-                    <span>Minute</span>
-                </div>
-
-                <div class="time">
-                    <h2 id="second">00</h2>
-                    <span>Second</span>
-                </div>
-            </section>
-        </div>
-    </div>
-    <!-- count-down of exam end -->
-
-
-
-
-
-    <!-- About Computer Technology -->
-    <div class="about py-3 text-md-left text-center" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 py-5">
-                    <h1 class="text-center head">শুরুতেই কম্পিউটার টেকনোলজি</h1>
-                </div>
-            </div>
-
-
-            <div class="row description">
-                <div class="col-md-4 col-sm-12">
-                    <img src="./img/computer-technology-1024x1024.jpg" class="img-fluid" alt="computert technology">
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <h4 class="text-danger">একটি জানালা একটি দৃশ্য,</h4>
-                    <h4 class="text-danger">একটি কম্পিউটার সারা বিশ্ব।</h4>
-
-                    <p class="text-justify">কম্পিউটার প্রকৌশলীদের ইলেকট্রনিক্স প্রকৌশল সফটওয়ার ডিজাইন ও হার্ডওয়ার-সফটওয়ার একত্রীকরণ প্রভৃতি ক্ষেত্রে বিশেষ শিক্ষা ও দক্ষতা আছে। কম্পিউটার প্রকৌশলী কম্পিউটিং এর মাইক্রোপ্রসেসর, পার্সোনাল কম্পিউটার, এবং সুপারকম্পিউটার ডিজাইন থেকে শুরু করে সার্কিট ডিজাইন সহ বিভিন্ন ক্ষেত্রে অবদান রাখেন। কম্পিউটার প্রকৌশলীর সাধারণ কার্যাবলীর মধ্যে রয়েছে সাধারণ ও বিশেষ কম্পিউটারের জন্য সফটওয়ার তৈরি করা, এমবেডেড মাইক্রোকন্ট্রোলারের জন্য ফার্মওয়ার লিখা, বিভিন্ন ভিএলএসআই চিপ ডিজাইন, বিভিন্ন এনালগ সেন্সর ডিজাইন, বিভিন্ন সার্কিট বোর্ড ডিজাইন এবং অপারেটিং সিস্টেম ডিজাইন প্রভৃতি। কম্পিউটার প্রকৌশলীরা রোবোটিক্স গবেষণার জন্য উপযুক্ত, যা বিভিন্ন তড়িৎ সিস্টেম যেমন মোটর, যোগাযোগব্যবস্থা, সেন্সর প্রভৃতি নিয়ন্ত্রণে ডিজিটাল সিস্টেমের উপর পুরোপুরি নির্ভরশীল। ভার্চুয়াল জগতের এই পৃথীবিতে মানুষ দিন দিন কম্পিউটার নির্ভর হয়ে পড়ছে ফলে বাড়ছে কম্পিউটার ইঞ্জিনিয়ারিং বিভাগ থেকে পাশ করা দক্ষ প্রকৌশলীদের চাহিদা।</p>
-
-                    <p class="text-justify" id="hide_text">কম্পিউটার প্রকৌশল একটি শাখা প্রকৌশল যে বিভিন্ন ক্ষেত্র সংহত কম্পিউটার বিজ্ঞান এবং ইলেকট্রনিক প্রকৌশল কম্পিউটার হার্ডওয়্যার এবং সফটওয়্যার উন্নয়নের জন্য প্রয়োজনীয়। কম্পিউটার প্রকৌশল ছেদ এ বিদ্যমান প্রযুক্তি এবং উদ্ভাবন। একটি গতিশীল পেশাদার ক্ষেত্র হিসাবে, এটি হার্ডওয়্যার প্রকৌশল (যেমন মাইক্রোপ্রসেসরস) এবং সফ্টওয়্যার ডেভেলপমেন্ট উভয় ক্ষেত্রে বিভিন্ন ক্যারিয়ার পথ সরবরাহ করে, যা প্রতিটি এয়ারস্পেস থেকে স্বাস্থ্যসেবা পর্যন্ত শিল্পগুলিতে কম্পিউটিং অগ্রগতি প্রচার করে।</p>
-
-                    <button class="btn btn-outline-primary" id="hide_btn">আরও পড়ুন</button>
-                </div>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-    </div>
-    <!-- About Computer Technology End-->
+        <!-- Gallery End -->
 
-    <!-- Gallery -->
-    <div class="gallery py-3 col-sm-12" id="gallary">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="head text-center text-primary">গ্যালারী</h1>
+
+        <!-- Introduce -->
+        <div class="introduce py-3">
+            <div class="container">
+                <!-- teachers info part -->
+                <div class="row" id="teachers">
+                    <div class="col-md-12 py-3">
+                        <h1 class="head text-center">আমাদের শিক্ষকগণ</h1>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Gallery window -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="./img/istt_banner.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_10.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_11.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_12.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_13.jpg" alt="Second slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_14.jpg" alt="Second slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_15.jpg" alt="Second slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_1.jpg" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_2.jpg" alt="Third slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_3.jpg" alt="Third slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_4.jpg" alt="Third slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_5.jpg" alt="Third slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_6.jpg" alt="Third slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_7.jpg" alt="Third slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_8.jpg" alt="Third slide">
-              </div>
-
-              <div class="carousel-item">
-                <img class="d-block w-100" src="./img/gallery/group_pic/group_pic_9.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-    <!-- Gallery End -->
-
-
-    <!-- Introduce -->
-    <div class="introduce py-3">
-        <div class="container">
-            <!-- teachers info part -->
-            <div class="row" id="teachers">
-                <div class="col-md-12 py-3">
-                    <h1 class="head text-center">আমাদের শিক্ষকগণ</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                <div class="row">
+                    <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
                     <div class="profile p-3">
                         <div class="pro-img">
                             <img class="img-fluid" src="./img/gallery/teachers/shahin_sir.jpg" alt="shahin_sir">
@@ -346,21 +398,21 @@
                     </div>
                 </div> -->
 
-                
-                <div class="col-md-4 col-sm-12 d-block d-lg-flex">
-                    <div class="profile p-3">
-                        <div class="pro-img">
-                            <img class="img-fluid" src="./img/gallery/teachers/moktar_sir.jpg" alt="muktar_sir">
-                        </div>
-                        <div class="pro-des">
-                            <h2 class="text-center mt-4">মুক্তার হোসেন</h2>
-                            <p class="text-center">লেকচারার এবং গাইড টিচার</p>
-                            <p class="text-center">কম্পিউটার সাইন্স টেকনোলজি, আইএসটিটি</p>
+
+                    <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                        <div class="profile p-3">
+                            <div class="pro-img">
+                                <img class="img-fluid" src="./img/gallery/teachers/moktar_sir.jpg" alt="muktar_sir">
+                            </div>
+                            <div class="pro-des">
+                                <h2 class="text-center mt-4">মুক্তার হোসেন</h2>
+                                <p class="text-center">লেকচারার এবং গাইড টিচার</p>
+                                <p class="text-center">কম্পিউটার সাইন্স টেকনোলজি, আইএসটিটি</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                    <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
                     <div class="profile p-3">
                         <div class="pro-img">
                             <img class="img-fluid" src="./img/gallery/teachers/mousumi_mam.jpg" alt="mousumi mam">
@@ -373,7 +425,7 @@
                     </div>
                 </div> -->
 
-                <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                    <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
                     <div class="profile p-3">
                         <div class="pro-img">
                             <img class="img-fluid" src="./img/gallery/teachers/nilamam.jpg" alt="nila mam">
@@ -386,71 +438,72 @@
                     </div>
                 </div> -->
 
-                <div class="col-md-4 col-sm-12 d-block d-lg-flex">
-                    <div class="profile p-3">
-                        <div class="pro-img">
-                            <img class="img-fluid" src="./img/gallery/teachers/asanuzzaman_sir.jpg" alt="assanuzzan_sir">
+                    <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                        <div class="profile p-3">
+                            <div class="pro-img">
+                                <img class="img-fluid" src="./img/gallery/teachers/asanuzzaman_sir.jpg"
+                                    alt="assanuzzan_sir">
+                            </div>
+                            <div class="pro-des">
+                                <h2 class="text-center mt-4">মোহাম্মদ আসানুজ্জামান</h2>
+                                <p class="text-center">লেকচারার</p>
+                                <p class="text-center">কম্পিউটার সাইন্স টেকনোলজি, আইএসটিটি</p>
+                            </div>
                         </div>
-                        <div class="pro-des">
-                            <h2 class="text-center mt-4">মোহাম্মদ আসানুজ্জামান</h2>
-                            <p class="text-center">লেকচারার</p>
-                            <p class="text-center">কম্পিউটার সাইন্স টেকনোলজি, আইএসটিটি</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                        <div class="profile p-3">
+                            <div class="pro-img">
+                                <img class="img-fluid" src="./img/gallery/teachers/rashed_sir.jpg" alt="rashed_sir">
+                            </div>
+                            <div class="pro-des">
+                                <h2 class="text-center mt-4">রাশেদ সরদার</h2>
+                                <p class="text-center">লেকচারার</p>
+                                <p class="text-center">ইলেকট্রিকাল ও ইলেক্ট্রনিকস ডিপার্টমেন্ট, আইএসটিটি</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                        <div class="profile p-3">
+                            <div class="pro-img">
+                                <img class="img-fluid" src="./img/gallery/teachers/romen_sir.jpg" alt="rashed_sir">
+                            </div>
+                            <div class="pro-des">
+                                <h2 class="text-center mt-4">রমেন কুমার দাশ</h2>
+                                <p class="text-center">লেকচারার</p>
+                                <p class="text-center">কম্পিউটার সাইন্স টেকনোলজি, আইএসটিটি</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                        <div class="profile p-3">
+                            <div class="pro-img">
+                                <img class="img-fluid" src="./img/gallery/teachers/sazzad_sir.jpg" alt="rashed_sir">
+                            </div>
+                            <div class="pro-des">
+                                <h2 class="text-center mt-4">মোহাম্মদ সাজ্জাদ হোসেন</h2>
+                                <p class="text-center">লেকচারার</p>
+                                <p class="text-center">কম্পিউটার সাইন্স টেকনোলজি, আইএসটিটি</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-12 d-block d-lg-flex">
-                    <div class="profile p-3">
-                        <div class="pro-img">
-                            <img class="img-fluid" src="./img/gallery/teachers/rashed_sir.jpg" alt="rashed_sir">
-                        </div>
-                        <div class="pro-des">
-                            <h2 class="text-center mt-4">রাশেদ সরদার</h2>
-                            <p class="text-center">লেকচারার</p>
-                            <p class="text-center">ইলেকট্রিকাল ও ইলেক্ট্রনিকস ডিপার্টমেন্ট, আইএসটিটি</p>
-                        </div>
+                <!-- teachers info part end -->
+
+
+                <!-- CR & Moderator info part -->
+                <div class="row">
+                    <div class="col-md-12 py-3">
+                        <h1 class="head text-center">আমাদের CR এবং গ্রুপ অ্যাডমিন মডারেটর</h1>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-12 d-block d-lg-flex">
-                    <div class="profile p-3">
-                        <div class="pro-img">
-                            <img class="img-fluid" src="./img/gallery/teachers/romen_sir.jpg" alt="rashed_sir">
-                        </div>
-                        <div class="pro-des">
-                            <h2 class="text-center mt-4">রমেন কুমার দাশ</h2>
-                            <p class="text-center">লেকচারার</p>
-                            <p class="text-center">কম্পিউটার সাইন্স টেকনোলজি, আইএসটিটি</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12 d-block d-lg-flex">
-                    <div class="profile p-3">
-                        <div class="pro-img">
-                            <img class="img-fluid" src="./img/gallery/teachers/sazzad_sir.jpg" alt="rashed_sir">
-                        </div>
-                        <div class="pro-des">
-                            <h2 class="text-center mt-4">মোহাম্মদ সাজ্জাদ হোসেন</h2>
-                            <p class="text-center">লেকচারার</p>
-                            <p class="text-center">কম্পিউটার সাইন্স টেকনোলজি, আইএসটিটি</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- teachers info part end -->
-
-
-            <!-- CR & Moderator info part -->
-            <div class="row">
-                <div class="col-md-12 py-3">
-                    <h1 class="head text-center">আমাদের CR এবং গ্রুপ অ্যাডমিন মডারেটর</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                <div class="row">
+                    <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
                     <div class="profile p-3">
                         <div class="pro-img">
                             <img class="img-fluid" src="./img/gallery/bipul_hassan_rabbi.jpg" alt="">
@@ -463,8 +516,8 @@
                         </div>
                     </div>
                 </div> -->
-                
-                <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+
+                    <!-- <div class="col-md-4 col-sm-12 d-block d-lg-flex">
                     <div class="profile p-3">
                         <div class="pro-img">
                             <img class="img-fluid" src="./img/gallery/urmi.jpg" alt="">
@@ -477,135 +530,152 @@
                         </div>
                     </div>
                 </div> -->
-                <div class="col-md-4 col-sm-12 d-block d-lg-flex">
-                    <div class="profile p-3">
-                        <div class="pro-img">
-                            <img class="img-fluid" src="./img/gallery/fahmida.jpg" alt="">
+                    <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                        <div class="profile p-3">
+                            <div class="pro-img">
+                                <img class="img-fluid" src="./img/gallery/fahmida.jpg" alt="">
+                            </div>
+                            <div class="pro-des">
+                                <h2 class="text-center mt-4">ফাহমিদা ইয়াসমিন</h2>
+                                <p class="text-center">গ্রুপ অ্যাডমিন ও CR</p>
+                                <p class="text-center">ব্লাড গ্রুপঃ A+</p>
+                                <a class="btn btn-warning text-center d-block"
+                                    href="./profiles/fahmida-yeasmin-451628.html">প্রোফাইল পড়ুন</a>
+                            </div>
                         </div>
-                        <div class="pro-des">
-                            <h2 class="text-center mt-4">ফাহমিদা ইয়াসমিন</h2>
-                            <p class="text-center">গ্রুপ অ্যাডমিন ও CR</p>
-                            <p class="text-center">ব্লাড গ্রুপঃ A+</p>
-                            <a class="btn btn-warning text-center d-block" href="./profiles/fahmida-yeasmin-451628.html">প্রোফাইল পড়ুন</a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 d-block d-lg-flex">
+                        <div class="profile p-3">
+                            <div class="pro-img">
+                                <img class="img-fluid" src="./img/gallery/MAHMOOD HASSAN RAMEEM 1.jpg" alt="">
+                            </div>
+                            <div class="pro-des">
+                                <h2 class="text-center mt-4">মাহমুদ হাসান রামীম</h2>
+                                <p class="text-center">গ্রুপ অ্যাডমিন ও CR</p>
+                                <p class="text-center">ব্লাড গ্রুপঃ A+</p>
+                                <a class="btn btn-warning text-center d-block"
+                                    href="./profiles/mahmood-hassan-rameem-451638.html">প্রোফাইল পড়ুন</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- CR & Moderator info part end -->
 
-                <div class="col-md-4 col-sm-12 d-block d-lg-flex">
-                    <div class="profile p-3">
-                        <div class="pro-img">
-                            <img class="img-fluid" src="./img/gallery/MAHMOOD HASSAN RAMEEM 1.jpg" alt="">
-                        </div>
-                        <div class="pro-des">
-                            <h2 class="text-center mt-4">মাহমুদ হাসান রামীম</h2>
-                            <p class="text-center">গ্রুপ অ্যাডমিন ও CR</p>
-                            <p class="text-center">ব্লাড গ্রুপঃ A+</p>
-                            <a class="btn btn-warning text-center d-block" href="./profiles/mahmood-hassan-rameem-451638.html">প্রোফাইল পড়ুন</a>
-                        </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a class="btn btn-primary my-2" target="_blank" href="./students_list_page/list.html"><i
+                                class="fas fa-list-alt"></i> স্টুডেন্ট লিস্ট দেখুন</a>
+
+                        <a class="btn btn-warning my-3" href="./others/data-entry.html" target="_blank"><i
+                                class="fas fa-user-plus"></i> তথ্য এন্ট্রির জন্য গুগল ফর্ম</a>
                     </div>
                 </div>
-            </div>
-            <!-- CR & Moderator info part end -->
 
-
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <a class="btn btn-primary my-2" target="_blank" href="./students_list_page/list.html"><i class="fas fa-list-alt"></i> স্টুডেন্ট লিস্ট দেখুন</a>
-
-                    <a class="btn btn-warning my-3" href="./others/data-entry.html" target="_blank"><i class="fas fa-user-plus"></i> তথ্য এন্ট্রির জন্য গুগল ফর্ম</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- Introduce End-->
-
-    <!-- android app -->
-    <div class="android" id="android_app">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <img class="img-fluid" src="./img/android_logo.png" alt="">
-                </div>
-                <div class="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center">
-                    <h1>ডাউনলোড করুন</h1>
-                    <h1>"আমাদের অ্যাপ"</h1>
-                    <!-- <h1 class="text-danger">আসছে শীঘ্রই</h1> -->
-
-                    <a class="btn btn-danger text-light" href="./android/istt_app_2.1.apk"><i class="fab fa-android"></i> এখনই অ্যাপ ডাউনলোড করুন <i class="fas fa-download"></i></a>
-                </div>
             </div>
         </div>
-    </div>
-    <!-- android app end -->
+        <!-- Introduce End-->
 
+        <!-- android app -->
+        <div class="android" id="android_app">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <img class="img-fluid" src="./img/android_logo.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+                        <h1>ডাউনলোড করুন</h1>
+                        <h1>"আমাদের অ্যাপ"</h1>
+                        <!-- <h1 class="text-danger">আসছে শীঘ্রই</h1> -->
 
-    <!-- facebook group -->
-    <div class="facebook py-3">
-        <div class="container">
-            <div class="row bg-secondary py-2 text-white facebook-box">
-                <div class="col-md-4 col-sm-12 img">
-                    <img class="img-fluid my-4" src="./img/facebook_app_icon.png" alt="facebook_icon">
-                    <h3 class="d-block text-center">ISTT Cmt Diploma 19/20</h3>
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <h1 class="text-md-left text-center ">ফেসবুক গ্রুপে আমাদের সাথে যুক্ত থাকুন।</h1>
-                    <a class="btn btn-primary text-md-left text-center mt-4 facebook-btn" href="https://www.facebook.com/groups/373882340179530/">গ্রুপে প্রবেশ করুন</a>
-
-
-
-                    <div class="alert alert-danger mt-4 text-center" role="alert">
-                        <p>শুধুমাত্র ব্যাচ এর স্টুডেন্ট এবং শিক্ষকরা এই গ্রুপে যুক্ত থাকতে পারবেন</p>
+                        <a class="btn btn-danger text-light" href="./android/istt_app_2.1.apk"><i
+                                class="fab fa-android"></i> এখনই অ্যাপ ডাউনলোড করুন <i class="fas fa-download"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- android app end -->
 
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <h5>Institute of Science Trade & Technology (ISTT)</h5>
-                    <h6>Permanent Campus: Plot: 1/9, Road: 2, Block: D, Section: 15, Mirpur, Dhaka-1216, Bangladesh</h6>
+        <!-- facebook group -->
+        <div class="facebook py-3">
+            <div class="container">
+                <div class="row bg-secondary py-2 text-white facebook-box">
+                    <div class="col-md-4 col-sm-12 img">
+                        <img class="img-fluid my-4" src="./img/facebook_app_icon.png" alt="facebook_icon">
+                        <h3 class="d-block text-center">ISTT Cmt Diploma 19/20</h3>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h1 class="text-md-left text-center ">ফেসবুক গ্রুপে আমাদের সাথে যুক্ত থাকুন।</h1>
+                        <a class="btn btn-primary text-md-left text-center mt-4 facebook-btn"
+                            href="https://www.facebook.com/groups/373882340179530/">গ্রুপে প্রবেশ করুন</a>
 
-                    <p><span><i class="fas fa-phone-alt"></i> </span><a class="text-white" href="tel:+88-02-9014199">+88-02-9014199</a></p>
 
-                    <p><span><i class="fas fa-mobile-alt"></i> </span><a class="text-white" href="tel:+88-01711-81 84 74">+88-01711-81 84 74</a></p>
-                </div>
-                <div class="col-md-4 col-sm-12 text-md-left">
-                    <h4 class="text-md-left text-center">কিছু গুরুত্বপূর্ণ লিংকসমুহ</h4>
-                    <ul class="text-md-left text-center">
-                        <li><a target="_blank" href="https://www.istt.edu.bd/">আইএসটিটি</a></li>
-                        <li><a target="_blank" href="http://www.bteb.gov.bd/">কারিগরি শিক্ষা বোর্ড</a></li>
-                        <li><a target="_blank" href="https://surokkha.gov.bd/">সুরক্ষা</a></li>
-                        <li><a target="_blank" href="https://bangladesh.gov.bd/">বাংলাদেশ সরকার</a></li>
-                        <li><a target="_blank" href="http://www.moedu.gov.bd/">শিক্ষা মন্ত্রণালয়</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-12 justify-content-center">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2108.698089296267!2d90.38115421853611!3d23.807553228284032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7285f7e6a75%3A0x14ddf7d3104a5602!2z4KaH4Kao4Ka44KeN4Kaf4Ka_4Kaf4Ka_4KaJ4KafIOCmheCmrCDgprjgpr7gpofgpqjgp43gprgg4Kaf4KeN4Kaw4KeH4KahIOCmj-CmqOCnjeCmoSDgpp_gp4fgppXgpqjgp4vgprLgppzgpr8gKElTVFQp!5e0!3m2!1sbn!2sbd!4v1641568906199!5m2!1sbn!2sbd" width="380" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center pt-3" id="rights"></p>
+
+                        <div class="alert alert-danger mt-4 text-center" role="alert">
+                            <p>শুধুমাত্র ব্যাচ এর স্টুডেন্ট এবং শিক্ষকরা এই গ্রুপে যুক্ত থাকতে পারবেন</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- Footer End -->
+
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <h5>Institute of Science Trade & Technology (ISTT)</h5>
+                        <h6>Permanent Campus: Plot: 1/9, Road: 2, Block: D, Section: 15, Mirpur, Dhaka-1216, Bangladesh
+                        </h6>
+
+                        <p><span><i class="fas fa-phone-alt"></i> </span><a class="text-white"
+                                href="tel:+88-02-9014199">+88-02-9014199</a></p>
+
+                        <p><span><i class="fas fa-mobile-alt"></i> </span><a class="text-white"
+                                href="tel:+88-01711-81 84 74">+88-01711-81 84 74</a></p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-md-left">
+                        <h4 class="text-md-left text-center">কিছু গুরুত্বপূর্ণ লিংকসমুহ</h4>
+                        <ul class="text-md-left text-center">
+                            <li><a target="_blank" href="https://www.istt.edu.bd/">আইএসটিটি</a></li>
+                            <li><a target="_blank" href="http://www.bteb.gov.bd/">কারিগরি শিক্ষা বোর্ড</a></li>
+                            <li><a target="_blank" href="https://surokkha.gov.bd/">সুরক্ষা</a></li>
+                            <li><a target="_blank" href="https://bangladesh.gov.bd/">বাংলাদেশ সরকার</a></li>
+                            <li><a target="_blank" href="http://www.moedu.gov.bd/">শিক্ষা মন্ত্রণালয়</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12 justify-content-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2108.698089296267!2d90.38115421853611!3d23.807553228284032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7285f7e6a75%3A0x14ddf7d3104a5602!2z4KaH4Kao4Ka44KeN4Kaf4Ka_4Kaf4Ka_4KaJ4KafIOCmheCmrCDgprjgpr7gpofgpqjgp43gprgg4Kaf4KeN4Kaw4KeH4KahIOCmj-CmqOCnjeCmoSDgpp_gp4fgppXgpqjgp4vgprLgppzgpr8gKElTVFQp!5e0!3m2!1sbn!2sbd!4v1641568906199!5m2!1sbn!2sbd"
+                            width="380" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center pt-3" id="rights"></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
     </div>
 
 
 
 
     <!-- Boostrap JS, Popper CDN -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 
     <!-- jQuery CDN -->
@@ -619,14 +689,14 @@
     <script src="./js/weather_data.js"></script>
     <script>
         var typed = new Typed(".animated_text", {
-            strings : ["আমাদের ব্যাচে আপনাকে স্বাগতম", "কম্পিউটার ব্যাচ ২০১৯-২০"],
+            strings: ["আমাদের ব্যাচে আপনাকে স্বাগতম", "কম্পিউটার ব্যাচ ২০১৯-২০"],
             // strings : ["এবারের সংগ্রাম, মুক্তির সংগ্রাম", "এবারের সংগ্রাম, স্বাধীনতার সংগ্রাম <br> জয় বাংলা !!"],
             // strings : ["এক সাগর রক্তের বিনিময়ে", "বাংলার স্বাধীনতা আনলে যারা", "আমরা তোমাদের ভুলব না", "!!! জয় বাংলা !!! "],
             // strings : ["শ্রদ্ধা সকল ভাষা শহীদদের প্রতি", "শ্রদ্ধা সকল ভাষা শহীদদের প্রতি"],
             // strings : ["মোদের গরব, মোদের আশা...", "আমরই বাংলা ভাষা..."],
-            typeSpeed : 80,
-            backSpeed : 1,
-            loop : false,
+            typeSpeed: 80,
+            backSpeed: 1,
+            loop: false,
         });
 
 
@@ -648,4 +718,5 @@
     </script>
 
 </body>
+
 </html>
