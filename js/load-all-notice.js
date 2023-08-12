@@ -1,21 +1,21 @@
 const noticeBoard = [
   {
-    // 6th semester final
-    title: "৭ম সেমিস্টার",
-    subTitle: "ব্যবহারিক পরীক্ষার রুটিন",
-    update: "সর্বশেষ আপডেট ০৬ ই আগস্ট ২০২৩",
-    link: "../others/semester-practical-exam-routine.html",
+    // 7th semester final
+    title: "ব্যাচ উদযাপন ২০২৩",
+    subTitle: "কম্পিউটার ২০১৯ / ২০",
+    update: "১৯ অথবা ২০ আগস্ট",
+    link: "../others/ragday2023.html",
     btnColor: "btn-primary",
     downloadIcon: "",
     btnText: "দেখুন",
   },
 
   {
-    // 7th semester final
-    title: "ব্যাচ উদযাপন ২০২৩",
-    subTitle: "কম্পিউটার ২০১৯ / ২০",
-    update: "শীঘ্রই আসছে",
-    link: "../others/ragday2023.html",
+    // 6th semester final
+    title: "৭ম সেমিস্টার",
+    subTitle: "ব্যবহারিক পরীক্ষার রুটিন",
+    update: "সর্বশেষ আপডেট ০৬ ই আগস্ট ২০২৩",
+    link: "../others/semester-practical-exam-routine.html",
     btnColor: "btn-primary",
     downloadIcon: "",
     btnText: "দেখুন",
