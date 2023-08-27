@@ -1,14 +1,14 @@
 const noticeBoard = [
-  {
-    // 7th semester final
-    title: "ব্যাচ উদযাপন ২০২৩",
-    subTitle: "কম্পিউটার ২০১৯ / ২০",
-    update: "১৯ অথবা ২০ আগস্ট",
-    link: "../others/ragday2023.html",
-    btnColor: "btn-primary",
-    downloadIcon: "",
-    btnText: "দেখুন",
-  },
+  // {
+  //   // 7th semester final
+  //   title: "ব্যাচ উদযাপন ২০২৩",
+  //   subTitle: "কম্পিউটার ২০১৯ / ২০",
+  //   update: "১৯ অথবা ২০ আগস্ট",
+  //   link: "../others/ragday2023.html",
+  //   btnColor: "btn-primary",
+  //   downloadIcon: "",
+  //   btnText: "দেখুন",
+  // },
 
   {
     // 6th semester final
